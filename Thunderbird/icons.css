@@ -1,0 +1,238 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#folderTree treechildren::-moz-tree-image {
+
+	width: 14px !important;
+	-moz-image-region: rect(0px 12px 12px 0) !important;
+}
+
+treechildren::-moz-tree-image(folderNameCol) {
+
+	list-style-image: url("assets/tree-folder.svg") !important;
+}
+#folderTree treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox) {
+
+	list-style-image: url("assets/tree-inbox.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent) {
+
+	list-style-image: url("assets/tree-sent.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox) {
+
+	list-style-image: url("assets/tree-outbox.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts) {
+
+	list-style-image: url("assets/tree-drafts.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Templates) {
+
+	list-style-image: url("assets/tree-template.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk) {
+
+	list-style-image: url("assets/tree-flame-junk.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Trash) {
+
+	list-style-image: url("assets/tree-trash.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Archive) {
+
+	list-style-image: url("assets/tree-archive.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, specialFolder-Virtual) {
+
+	list-style-image: url("assets/tree-folder-search.svg") !important;
+}
+
+/*TWISTE*/
+
+treechildren:-moz-tree-twisty {
+
+	list-style-image: url("assets/twisty.svg") !important;
+	padding: 0 5px !important;
+}
+treechildren:-moz-tree-twisty(open) {
+
+	list-style-image: url("assets/twisty-expanded.svg") !important;
+	padding: 0 5px !important;
+}
+
+/*Feed, News*/
+
+treechildren::-moz-tree-image(folderNameCol, serverType-nntp) {
+
+	list-style-image: url("assets/tree-news.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, isFeedFolder-true) {
+
+	list-style-image: url("assets/tree-rss.svg") !important;
+}
+
+/*IMAP/POP account nodes*/
+
+treechildren::-moz-tree-image(folderNameCol, isServer-true) {
+
+	list-style-image: url("assets/tree-email-account.svg") !important;
+}
+
+/*Local folders*/
+
+treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-none) {
+
+	list-style-image: url("assets/tree-local-account.svg") !important;
+}
+
+ /*News and feed server*/
+
+treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-nntp) {
+
+	list-style-image: url("assets/tree-news.svg") !important;
+}
+treechildren::-moz-tree-image(folderNameCol, isServer-true, serverType-rss) {
+
+	list-style-image: url("assets/tree-news.svg") !important;
+}
+
+/*Message List*/
+
+treechildren::-moz-tree-image(junkStatusCol),
+treechildren::-moz-tree-image(junkStatusCol, notjunk) {
+
+	list-style-image: url("assets/col-flame-empty.svg") !important;
+}
+treechildren::-moz-tree-image(junkStatusCol, junk) {
+	list-style-image: url("assets/col-flame-junk.svg") !important;
+}
+treechildren::-moz-tree-image(subjectCol, new) {
+
+	list-style-image: url("assets/col-star-new.svg") !important;
+}
+treechildren::-moz-tree-image(flaggedCol) {
+
+	list-style-image: url("assets/col-star.svg") !important;
+}
+treechildren::-moz-tree-image(flaggedCol, flagged) {
+
+	list-style-image: url("assets/col-starred.svg") !important;
+}
+treechildren::-moz-tree-image(unreadButtonColHeader) {
+
+	list-style-image: url("assets/col-dot-unread.svg") !important;
+}
+treechildren::-moz-tree-image(unreadButtonColHeader, unread) {
+
+	list-style-image: url("assets/col-dot-read.svg") !important;
+}
+
+/*Replies*/
+
+treechildren::-moz-tree-image(subjectCol, forwarded) {
+
+	list-style-image: url("assets/col-forward.svg") !important;
+}
+treechildren::-moz-tree-image(subjectCol, replied) {
+
+	list-style-image: url("assets/col-reply.svg") !important;
+}
+treechildren::-moz-tree-image(subjectCol, replied, forwarded) {
+
+	list-style-image: url("assets/col-forward-reply.svg") !important;
+}
+
+/* LIGHTNING */
+
+#today-header,
+#tomorrow-header,
+#nextweek-header {
+	background-color: transparent !important;
+}
+
+treenode-checkbox {
+	padding-bottom: 4px !important;
+}
+
+treenode-checkbox > .checkbox-check {
+	background: url("assets/twisty.svg") center no-repeat !important;
+}
+
+treenode-checkbox[checked="true"] > .checkbox-check {
+	background-image: url("assets/twisty-expanded.svg") !important;
+}
+
+.calendar-task-tree-col-priority {
+	list-style-image: url("assets/cal-task-images.png") !important;
+}
+
+#todaypane-new-event-button {
+	list-style-image: url("assets/cal-newevent.svg") !important;
+}
+/* Write button */
+#newMsgButton-mail-menuitem {
+
+	list-style-image: url("assets/cal-newmsg.svg") !important;
+}
+.imipAcceptRecurrencesButton,
+.imipAcceptButton {
+
+	list-style-image: url("assets/cal-complete.svg") !important;
+}
+.imipDeclineCounterButton,
+.imipDeclineRecurrencesButton,
+.imipDeclineButton {
+
+	list-style-image: url("assets/cal-decline.svg") !important;
+}
+.imipTentativeRecurrencesButton,
+.imipTentativeButton {
+
+	list-style-image: url("assets/cal-tentative.svg") !important;
+}
+.imipDetailsButton {
+
+	list-style-image: url("assets/cal-find.svg") !important;
+}
+.imipAddButton {
+
+	list-style-image: url("assets/cal-newevent.svg") !important;
+}
+.imipRescheduleButton,
+.imipUpdateButton {
+
+	list-style-image: url("assets/cal-synchronize.svg") !important;
+}
+.imipDeleteButton {
+
+	list-style-image: url("assets/cal-delete.svg") !important;
+}
+.imipReconfirmButton {
+
+	list-style-image: url("assets/cal-priotity.svg") !important;
+}
+#calendar-add-task-button {
+
+	list-style-image: url("assets/cal-newtask.svg") !important;
+}
+#task-actions-category {
+
+	list-style-image: url("assets/cal-category.svg") !important;
+}
+#task-actions-markcompleted {
+
+	list-style-image: url("assets/cal-complete.svg") !important;
+}
+#task-actions-priority {
+
+	list-style-image: url("assets/cal-priority.svg") !important;
+}
+#calendar-delete-task-button {
+
+	list-style-image: url("assets/cal-delete.svg") !important;
+}
+.today-pane-cycler {
+
+	list-style-image: url("assets/cal-dview-cycler.svg") !important;
+}
+ 
