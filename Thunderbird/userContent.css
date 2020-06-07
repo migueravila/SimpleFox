@@ -1,0 +1,20 @@
+@import url("userChrome.css");
+
+@-moz-document url("about:blank"), url("about:newtab"), url("about:home") {
+	html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
+		-moz-appearance: none !important;
+		bacgkround-image: none !important;
+		background: transparent; !important;
+	}
+}
+
+:root{
+	scrollbar-width: none !important;
+}
+
+@-moz-document url(about:privatebrowsing) {
+
+	:root{
+		scrollbar-width: none !important;
+	}
+}
