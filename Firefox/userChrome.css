@@ -1,0 +1,93 @@
+ 
+window, #main-window, #toolbar-menubar, #TabsToolbar, #PersonalToolbar, #navigator-toolbox,#sidebar-box{
+
+background-color: rgba(20,20,20,0.6) !important;
+
+-moz-appearance: none !important;
+
+background-image: none !important;
+
+}
+
+
+window, #nav-bar{
+
+background-color: rgba(20,20,20,0.6) !important;
+
+-moz-appearance: none !important;
+
+background-image: none !important;
+
+box-shadow: none !important;
+
+}
+
+.tab-background {
+    border: none !important;
+}
+
+.tab-background[selected="true"] {
+
+/*background: rgba(20,20,20,0.6) !important;*/
+
+-moz-appearance: none !important;
+
+background-image: none !important;
+
+}
+#forward-button {
+display: none !important;
+}
+.titlebar-spacer {
+    display: none !important; 
+}
+
+
+#tracking-protection-icon-container {
+display: none !important;
+}
+#PanelUI-button {
+display: none !important;
+}
+.titlebar-buttonbox {
+    display: none !important;
+}
+* Hide tab borders */
+:root {
+  --tabs-border: transparent !important;
+  }
+.tabbrowser-tabs{
+border:none !important;
+ opacity: 0 !important;
+}
+
+/* Hide separators between background tabs */
+.tabbrowser-tab::before {
+  opacity: 0 !important; 
+  }
+
+/* Hide border from rightmost background tab */
+.tabbrowser-tab::after {
+  opacity: 0 !important; 
+  }
+
+/* Remove placeholder right border */
+.titlebar-placeholder {
+  border: none !important;
+  }
+
+/* Remove border under navbar */
+#navigator-toolbox::after {
+  border-bottom: 0px !important;
+  }
+/* Remove border above navbar */
+#navigator-toolbox::after {
+  border-top: 0px !important;
+  }
+  #nav-bar {
+    background: rgba(20,20,20,0.6) !important; 
+    border: none !important;
+    box-shadow: none !important;
+	margin-top: -1px !important; border-top-width: -1px !important;
+	margin-bottom: -1px !important; border-bottom-width: -1px !important;
+}   
