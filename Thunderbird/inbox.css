@@ -1,0 +1,159 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* Toolbar */
+#tabmail-container #tabmail #tabmail-tabbox 
+#tabpanelcontainer #mailContent #mail-toolbox {
+	background-color: var(--tb-base-bg) !important;
+}
+
+/* Toolbar bottom line */
+.mail-toolbox::after,
+.contentTabToolbox::after {
+	box-shadow: none !important;
+	border: none !important;
+}
+
+/* Buttons in toolbar */
+.toolbarbutton-1  {
+	background: transparent !important;
+	border-radius: var(--tb-radius) !important;
+	border: none !important;
+}
+
+/* Buttons in toolbar */
+.toolbarbutton-1 {
+	background: var(--tb-base-bg) !important;
+	height: 28px !important;
+}
+
+.toolbarbutton-1:hover {
+	background-color: var(--tb-base-hover) !important;
+	border-radius: var(--tb-radius) !important;
+}
+
+/* The line in the toolbar */
+toolbarseparator {
+	visibility: collapse !important;
+}
+
+
+/* The Columns in tables */
+.treecol-image, treecol {
+	border: none !important;
+	background: var(--tb-base-bg) !important;
+}
+
+treecol {
+	height: 32px !important;
+}
+
+#messagepanebox label {
+	color: var(--tb-base-fg) !important;
+}
+
+#msgHeaderView {
+	background-color: var(--tb-base-bg) !important;
+}
+
+#expandedtagsRow { 
+	display: none !important;
+}
+
+#messagepane {
+	margin: 0px 0px !important;
+	border: none !important;
+	padding: 10px 10px !important;
+	background-color: var(--tb-base-bg) !important;
+	box-shadow: none !important;;
+}
+
+#messagesBox {
+	background:  var(--tb-base-bg) !important;
+}
+
+
+/* Thread tree */
+
+#threadTree > treechildren::-moz-tree-cell-text(subjectCol) {
+	-moz-margin-start: -3px !important; 
+	-moz-margin-end: 5px !important;
+	color: var(--tb-base-fg) !important;
+}
+
+#threadTree treechildren::-moz-tree-row(odd) {
+	background-color: var(--tb-base-bg) !important;
+}
+
+#threadTree treechildren::-moz-tree-row(odd, selected) {
+	background-color: var(--tb-accent-bg) !important;
+}
+
+#threadTree treechildren::-moz-tree-row(even, selected) {
+	background-color: var(--tb-accent-bg) !important;
+}
+
+#threadTree treechildren::-moz-tree-row(odd, hover) {
+	background-color: var(--tb-base-hover) !important;
+}
+
+#threadTree treechildren::-moz-tree-row(even, hover) {
+	background-color: var(--tb-base-hover) !important;
+}
+
+
+#threadTree treechildren::-moz-tree-row {
+	height: 32px !important;
+	max-height: 32x !important;
+	padding-top: 0px !important;
+	margin: 0 !important;
+	/* 	color: blue !important; */
+}
+
+#threadTree treechildren {
+	font-size: 11pt !important;
+}
+
+
+/* Folder Pane */
+
+/* Hide useless column on folder pane */
+#folderNameCol {
+	height: 0px !important;
+}
+
+#messengerBox #folderTree {
+	background: transparent !important;
+}
+
+#folderTree > treechildren::-moz-tree-row {
+	height: 24px !important;
+	min-height: 24px !important;
+}
+
+#folderTree > treechildren::-moz-tree-row(odd) {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+#folderTree > treechildren::-moz-tree-row(selected) {
+	background-color: var(--tb-base-bg) !important;
+	border: none !important;
+}
+
+#folderTree > treechildren::-moz-tree-row(hover) {
+	background-color: var(--tb-base-hover) !important;
+}
+
+#folderTree > treechildren::-moz-tree-line {
+	visibility: none !important;
+}
+
+#folderTree > treechildren::-moz-tree-cell-text {
+	color: var(--tb-base-fg) !important;
+	font-size: 11pt !important;
+	font-weight: normal !important;
+}
+
+#folderTree > treechildren::-moz-tree-cell {
+	padding: 0 8px !important;
+}
