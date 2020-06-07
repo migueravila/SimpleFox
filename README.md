@@ -1,4 +1,10 @@
 # Transparent-Firefox-and-Thunderbird-
 A theme for Firefox and Thunderbird completly transparent
 
-![](https://github.com/MiguelRAvila/Transparent-Firefox-and-Thunderbird-/blob/master/Images/Screenshot.png)
+## Firefox:
+
+![](https://github.com/MiguelRAvila/Transparent-Firefox-and-Thunderbird-/blob/master/Images/Firefox.png)
+
+## Thunderbird: 
+
+![](https://github.com/MiguelRAvila/Transparent-Firefox-and-Thunderbird-/blob/master/Images/Thunderbird.png)
