@@ -107,3 +107,102 @@ window,
   margin-bottom: -1px !important;
   border-bottom-width: -1px !important;
 }
+
+/* Testing */
+
+/* Make urlbar appear more compact */
+#urlbar[breakout] {
+  margin-inline-start: 0px !important;
+  width: 100% !important;
+  left: 0 !important;
+  top: calc(
+    (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+  ) !important;
+}
+#urlbar[breakout]:not([open]) {
+  bottom: calc(
+    (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+  ) !important;
+}
+.urlbarView {
+  margin-inline: 0 !important;
+  width: auto !important;
+}
+.urlbarView-row {
+  padding: 0 2px !important;
+}
+.urlbarView-row-inner {
+  padding-inline-start: 4px !important;
+}
+#urlbar-background {
+  animation: none !important;
+}
+#urlbar-input-container {
+  padding: 0 !important;
+  height: 100% !important;
+}
+#identity-box {
+  padding-block: var(--urlbar-icon-padding);
+}
+
+/* Make urlbar hl differentt */
+
+/*#urlbar {
+	max-width: 70% !important;
+	margin: 0 15% !important;
+}*/
+
+#urlbar-input:focus {
+  color: var(--bf-urlbar-focused-color) !important;
+}
+
+#urlbar-background {
+  background: var(--bf-bg) !important;
+  border: none !important;
+}
+
+.urlbar-icon:not([disabled]):hover,
+.urlbar-icon-wrapper:not([disabled]):hover {
+  background: var(--bf-hover-bg) !important;
+}
+
+.urlbar-icon[open],
+.urlbar-icon-wrapper[open],
+.urlbar-icon:not([disabled]):hover:active,
+.urlbar-icon-wrapper:hover:active {
+  background: var(--bf-hover-bg) !important;
+}
+
+.urlbar-icon-wrapper[open] > .urlbar-icon,
+.urlbar-icon-wrapper > .urlbar-icon:hover,
+.urlbar-icon-wrapper > .urlbar-icon:hover:active {
+  background: var(--bf-hover-bg) !important;
+}
+
+.megabar[breakout-extend="true"]:not([open="true"]) > #urlbar-background {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.megabar[open="true"] > #urlbar-background {
+  background: var(--bf-urlbar-active-bg) !important;
+}
+
+#navigator-toolbox,
+toolbaritem {
+  border: none !important;
+}
+
+.urlbar-icon {
+  color: var(--bf-icon-color) !important;
+}
+
+.urlbar-icon > image {
+  fill: var(--bf-icon-color) !important;
+  color: var(--bf-icon-color) !important;
+}
+
+.urlbarView-favicon,
+.urlbarView-type-icon {
+  display: none !important;
+}
