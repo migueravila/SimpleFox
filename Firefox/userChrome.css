@@ -1,93 +1,109 @@
- 
-window, #main-window, #toolbar-menubar, #TabsToolbar, #PersonalToolbar, #navigator-toolbox,#sidebar-box{
+:root {
+  --bf-bg: #14141488;
+  --bf-hover-bg: #141414d8;
+  --bf-color: #f2f2f2;
+  --bf-focused-color: #fefefe;
 
-background-color: rgba(20,20,20,0.6) !important;
+  /* --bf-urlbar-bg: var(--bf-bg); */
+  --bf-urlbar-active-bg: #141414d8;
+  --bf-urlbar-color: var(--bf-color);
+  --bf-urlbar-focused-color: var(--bf-focused-color);
+  --bf-urlbar-font-size: 12pt;
+  --bf-urlbar-font-weight: 500;
 
--moz-appearance: none !important;
+  --bf-urlbar-results-font-size: 12pt;
+  --bf-urlbar-results-font-weight: 550;
+  --bf-urlbar-results-url-color: var(--bf-color);
+}
+window,
+#main-window,
+#toolbar-menubar,
+#TabsToolbar,
+#PersonalToolbar,
+#navigator-toolbox,
+#sidebar-box {
+  background-color: rgba(20, 20, 20, 0.6) !important;
 
-background-image: none !important;
+  -moz-appearance: none !important;
 
+  background-image: none !important;
 }
 
+window,
+#nav-bar {
+  background-color: rgba(20, 20, 20, 0.6) !important;
 
-window, #nav-bar{
+  -moz-appearance: none !important;
 
-background-color: rgba(20,20,20,0.6) !important;
+  background-image: none !important;
 
--moz-appearance: none !important;
-
-background-image: none !important;
-
-box-shadow: none !important;
-
+  box-shadow: none !important;
 }
 
 .tab-background {
-    border: none !important;
+  border: none !important;
 }
 
 .tab-background[selected="true"] {
+  /*background: rgba(20,20,20,0.6) !important;*/
 
-/*background: rgba(20,20,20,0.6) !important;*/
+  -moz-appearance: none !important;
 
--moz-appearance: none !important;
-
-background-image: none !important;
-
+  background-image: none !important;
 }
 #forward-button {
-display: none !important;
+  display: none !important;
 }
 .titlebar-spacer {
-    display: none !important; 
+  display: none !important;
 }
-
 
 #tracking-protection-icon-container {
-display: none !important;
+  display: none !important;
 }
 #PanelUI-button {
-display: none !important;
+  display: none !important;
 }
 .titlebar-buttonbox {
-    display: none !important;
+  display: none !important;
 }
-* Hide tab borders */
-:root {
+* Hide tab borders */ :root {
   --tabs-border: transparent !important;
-  }
-.tabbrowser-tabs{
-border:none !important;
- opacity: 0 !important;
+}
+.tabbrowser-tabs {
+  border: none !important;
+  opacity: 0 !important;
 }
 
 /* Hide separators between background tabs */
 .tabbrowser-tab::before {
-  opacity: 0 !important; 
-  }
+  opacity: 0 !important;
+}
 
 /* Hide border from rightmost background tab */
 .tabbrowser-tab::after {
-  opacity: 0 !important; 
-  }
+  opacity: 0 !important;
+}
 
 /* Remove placeholder right border */
 .titlebar-placeholder {
   border: none !important;
-  }
+}
 
 /* Remove border under navbar */
 #navigator-toolbox::after {
   border-bottom: 0px !important;
-  }
+}
 /* Remove border above navbar */
 #navigator-toolbox::after {
   border-top: 0px !important;
-  }
-  #nav-bar {
-    background: rgba(20,20,20,0.6) !important; 
-    border: none !important;
-    box-shadow: none !important;
-	margin-top: -1px !important; border-top-width: -1px !important;
-	margin-bottom: -1px !important; border-bottom-width: -1px !important;
-}   
+}
+#nav-bar {
+  background: rgba(20, 20, 20, 0.6) !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: -1px !important;
+  border-top-width: -1px !important;
+  margin-bottom: -1px !important;
+  border-bottom-width: -1px !important;
+}
