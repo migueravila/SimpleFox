@@ -1,0 +1,65 @@
+/* Window transparency: */
+window,
+#main-window,
+#toolbar-menubar,
+#TabsToolbar,
+#PersonalToolbar,
+#navigator-toolbox,
+#sidebar-box {
+  background-color: #14141499 !important;
+  -moz-appearance: none !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+
+window,
+#nav-bar {
+  background-color: #14141499 !important;
+
+  -moz-appearance: none !important;
+
+  background-image: none !important;
+
+  box-shadow: none !important;
+}
+
+::selection {
+  background-color: #bebebe;
+  color: #141414;
+}
+/* Tabs transparency: */
+:root {
+  --tabs-border: transparent !important;
+}
+.tab-background {
+  border: none !important;
+}
+
+.tab-background[selected="true"] {
+
+  -moz-appearance: none !important;
+
+  background-image: none !important;
+}
+.tabbrowser-tabs {
+  border: none !important;
+  opacity: 0 !important;
+}
+
+/* Hide separators between background tabs */
+.tabbrowser-tab::before {
+  opacity: 0 !important;
+  border-left: none !important;
+}
+
+/* Hide border from rightmost background tab */
+.tabbrowser-tab::after {
+  opacity: 0 !important;
+  border-left: none !important;
+}
+
+/* Remove placeholder right border */
+.titlebar-placeholder {
+  border: none !important;
+}
