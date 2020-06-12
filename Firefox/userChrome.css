@@ -63,3 +63,156 @@ window,
 .titlebar-placeholder {
   border: none !important;
 }
+/* Buttons hide: */
+#forward-button {
+  display: none !important;
+}
+.titlebar-spacer {
+  display: none !important;
+}
+
+#tracking-protection-icon-container {
+  display: none !important;
+}
+#PanelUI-button {
+  display: none !important;
+}
+.titlebar-buttonbox {
+  display: none !important;
+} 
+#back-button {
+  display: none !important;
+}
+/* NAVBAR */
+
+/* Remove border under navbar */
+#navigator-toolbox::after {
+  border-bottom: 0px !important;
+}
+/* Remove border above navbar */
+#navigator-toolbox::after {
+  border-top: 0px !important;
+}
+#nav-bar {
+  background: #14141499 !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: -1px !important;
+  border-top-width: -1px !important;
+  margin-bottom: -1px !important;
+  border-bottom-width: -1px !important;
+}
+/* Sidebar */
+#history-panel,
+#sidebar-search-container,
+#bookmarksPanel {
+ 	background: #14141499 !important;
+}
+
+#search-box {
+ 	-moz-appearance: none !important;
+ 	background: #14141499  !important;
+ 	border-radius: 6px !important;
+}
+
+#sidebar-search-container {
+ 	background-color: #14141499  !important;
+}
+
+#sidebar-icon {
+  display: none !important;
+}
+
+.sidebar-placesTree {
+ 	color: #bebebe  !important;
+}
+
+#sidebar-switcher-target {
+	color: #bebebe  !important;
+}
+
+#sidebar-header {
+ 	background: #14141499  !important;
+}
+
+#sidebar-box {
+ 	--sidebar-background-color:#14141499  !important;
+}
+
+#sidebar-splitter {
+ 	border: none !important;
+	opacity: 1 !important;
+	background-color: #14141499  !important;
+}
+/* URL BAR */
+
+#urlbar[breakout] {
+  margin-inline-start: 0px !important;
+  width: 100% !important;
+  left: 0 !important;
+  top: calc(
+    (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+  ) !important;
+}
+#urlbar-background {
+  background: transparent !important;
+  border: none !important;
+}
+#urlbar[breakout]:not([open]) {
+  bottom: calc(
+    (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+  ) !important;
+}
+#urlbar-background {
+  animation: none !important;
+}
+#urlbar-input-container {
+  padding: 0 !important;
+  height: 100% !important;
+}
+#identity-box {
+  display: none;
+}
+/*C U S T O M  - S E C T I O N
+You can choose between:
+(Comment wich one you don't want)*/
+
+/*Don't have the urlbarview:*/
+
+
+#urlbar .urlbarView {
+   display: none !important;
+}
+
+/* Have the urblbarview: */
+
+
+/*#urlbar-input:focus {
+  color: #fff !important;
+}
+.megabar[open="true"] > #urlbar-background {
+  background: #fff !important;
+}
+.urlbarView {
+  margin-inline: 0 !important;
+  width: auto !important;
+}
+.urlbarView-row {
+  padding: 0 2px !important;
+}
+.urlbarView-row-inner {
+  padding-inline-start: 4px !important;
+}
+#urlbar-background {
+  background: #14141499 !important;
+  border: none !important;
+}*/
+#searchbar {
+	background: var(--bf-bg) !important;
+	border: none !important;
+}
+
+.searchbar-textbox {
+	color: var(--bf-focus-fg) !important;
+	font-weight: 700 !important;
+}
