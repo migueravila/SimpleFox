@@ -14,6 +14,8 @@ A theme for Firefox and Thunderbird completly transparent
 4. Go to your Firefox profile located in `$HOME/.mozilla/firefox/XXXXXXX.default-release/`.
 5. Create a folder and name it **`chrome`** (with lowercase) and then paste the `userChrome.css` and `userContent.css` files into it. 
 6. E N J O Y 💜
+### Some custom preferences:
+1. In the last section called `Custom-Section` you can choose between have the urlbarview or not. Just uncomment wich you want and enjoy!
 
 ![](https://github.com/MiguelRAvila/Transparent-Firefox-and-Thunderbird-/blob/master/Images/Firefox_1.png)
 
