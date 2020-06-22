@@ -1,4 +1,4 @@
-# Transparent-Firefox-and-Thunderbird-
+# SimplerentFox
 
 A theme for Firefox and Thunderbird completly transparent
 
