@@ -1,3 +1,4 @@
+
 /* Window transparency: */
 window,
 #main-window,
@@ -64,6 +65,7 @@ window,
   border: none !important;
 }
 /* Buttons hide: */
+
 #forward-button {
   display: none !important;
 }
@@ -78,11 +80,14 @@ window,
   display: none !important;
 }
 .titlebar-buttonbox {
-  display: none !important;
+/*   display: none !important; */
+  margin-left: 7px !important;
+  margin-right: 15px !important;
 } 
 #back-button {
   display: none !important;
 }
+
 /* NAVBAR */
 
 /* Remove border under navbar */
@@ -173,6 +178,7 @@ window,
 #identity-box {
   display: none;
 }
+
 /*C U S T O M  - S E C T I O N
 You can choose between:
 (Comment wich one you don't want)*/
@@ -207,6 +213,9 @@ You can choose between:
   background: #14141499 !important;
   border: none !important;
 }*/
+
+/* Testing: */
+
 #searchbar {
 	background: var(--bf-bg) !important;
 	border: none !important;
@@ -216,3 +225,70 @@ You can choose between:
 	color: var(--bf-focus-fg) !important;
 	font-weight: 700 !important;
 }
+
+
+/* T E S T  */
+
+/* REMOVE MEGABAR START
+ * VERSION 1.0.4
+ * CODE AT: http://userchrome.wesleybranton.com/megabar
+ * RELEASE NOTES: http://userchrome.wesleybranton.com/notes/megabar */
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+    /* DISABLE EXPANDING START */
+    #urlbar[breakout][breakout-extend] {
+        top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+        left: 0 !important;
+        width: 100% !important;
+    }
+    
+    #urlbar[breakout][breakout-extend] > #urlbar-input-container {
+        height: var(--urlbar-height) !important;
+        padding-block: 0 !important;
+        padding-inline: 0 !important;
+    }
+    
+    #urlbar[breakout][breakout-extend] > #urlbar-background {
+        animation-name: none !important;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
+    }
+    /* DISABLE EXPANDING END */
+    
+    /* REMOVE URL RESULT PADDING START */
+    .urlbarView {
+        margin-inline: 0 !important;
+        width: 100% !important;
+    }
+
+    .urlbarView-row {
+        padding-block: 0 !important;
+    }
+    /* REMOVE URL RESULT PADDING END */
+    
+    /* MOVE URL RESULT TYPE ICON TO LEFT START */
+    .urlbarView-type-icon {
+        min-width: 16px !important;
+        height: 16px !important;
+        margin-bottom: 0 !important;
+        margin-inline-start: 0 !important;
+    }
+    
+    .urlbarView-favicon {
+        margin-inline-start: 20px !important;
+    }
+    /* MOVE URL RESULT TYPE ICON TO LEFT END */
+
+    /* DISPLAY GO BUTTON WHEN TYPING START */
+    #urlbar-input-container[pageproxystate="invalid"] #urlbar-go-button {
+        display: block !important;
+    }
+    /* DISPLAY GO BUTTON WHEN TYPING END */
+
+    /* ALWAYS SHOW PAGE ACTIONS START */
+    /* DISABLED BY DEFAULT - UNCOMMENT TO ENABLE */
+    #pageActionButton {
+        display: block !important;
+    }
+    /* ALWAYS SHOW PAGE ACTIONS END */
+}
+/* REMOVE MEGABAR END */
+
