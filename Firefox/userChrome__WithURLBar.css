@@ -179,19 +179,6 @@ window,
   display: none;
 }
 
-/*C U S T O M  - S E C T I O N
-You can choose between:
-(Comment wich one you don't want)*/
-
-/*Don't have the urlbarview:*/
-
-
-/*#urlbar .urlbarView {
-   display: none !important;
-}*/
-
-/* Have the urblbarview: */
-
 
 #urlbar-input:focus {
   color: #fff !important;
@@ -213,59 +200,3 @@ You can choose between:
   background: #14141499 !important;
   border: none !important;
 }
-
-/* Testing: */
-
-/*#searchbar {
-	background: var(--bf-bg) !important;
-	border: none !important;
-}
-
-.searchbar-textbox {
-	color: var(--bf-focus-fg) !important;
-	font-weight: 700 !important;
-}
-
-@-moz-document url(chrome://browser/content/browser.xhtml) {
-    #urlbar[breakout][breakout-extend] {
-        top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
-        left: 0 !important;
-        width: 100% !important;
-    }
-    
-    #urlbar[breakout][breakout-extend] > #urlbar-input-container {
-        height: var(--urlbar-height) !important;
-        padding-block: 0 !important;
-        padding-inline: 0 !important;
-    }
-    
-    #urlbar[breakout][breakout-extend] > #urlbar-background {
-        animation-name: none !important;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
-    }
-    .urlbarView {
-        margin-inline: 0 !important;
-        width: 100% !important;
-    }
-
-    .urlbarView-row {
-        padding-block: 0 !important;
-    }
-    .urlbarView-type-icon {
-        min-width: 16px !important;
-        height: 16px !important;
-        margin-bottom: 0 !important;
-        margin-inline-start: 0 !important;
-    }
-    
-    .urlbarView-favicon {
-        margin-inline-start: 20px !important;
-    }
-    #urlbar-input-container[pageproxystate="invalid"] #urlbar-go-button {
-        display: block !important;
-    #pageActionButton {
-        display: block !important;
-    }
-}*/
-
-
