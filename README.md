@@ -4,7 +4,7 @@ A theme for Firefox and Thunderbird completly transparent (Now with system butto
 
 ## Firefox:
 
-![](https://github.com/MiguelRAvila/Transparent-Firefox-and-Thunderbird-/blob/master/Images/Firefox.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Firefox.png)
 
 ### Installation:
 
@@ -14,6 +14,8 @@ A theme for Firefox and Thunderbird completly transparent (Now with system butto
 4. Go to your Firefox profile located in `$HOME/.mozilla/firefox/XXXXXXX.default-release/`.
 5. Create a folder and name it **`chrome`** (with lowercase) and then paste the `userChrome.css` and `userContent.css` files into it. 
 6. E N J O Y 💜
+
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Firefox_1.png)
    
    ### Some custom preferences:
    
@@ -21,14 +23,16 @@ A theme for Firefox and Thunderbird completly transparent (Now with system butto
 
 #### Without URL Bar:
 
-
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/FirefoxWUB.png)
 
 #### With URL Bar:
 
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/FirefoxCUB.png)
 
 
-![](https://github.com/MiguelRAvila/Transparent-Firefox-and-Thunderbird-/blob/master/Images/Firefox_1.png)
 
 ## Thunderbird:
 
-![](https://github.com/MiguelRAvila/Transparent-Firefox-and-Thunderbird-/blob/master/Images/Thunderbird.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Thunderbird.png)
+
+Work in process...
