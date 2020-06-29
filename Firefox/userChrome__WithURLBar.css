@@ -191,7 +191,9 @@ window {
 .urlbarView-row-inner {
   padding-inline-start: 4px !important;
 }
+
+/* Change the URL-Bar opacity */
 #urlbar-background {
-  background: #14141499 !important;
+  background: rgba(20, 20, 20, 0.6) !important;
   border: none !important;
 }
