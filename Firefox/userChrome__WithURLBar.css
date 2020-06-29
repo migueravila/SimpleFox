@@ -1,4 +1,3 @@
-
 /* Window transparency: */
 window,
 #main-window,
@@ -13,10 +12,8 @@ window,
   border: none !important;
 }
 
-
-window,
-#nav-bar {
-  background-color: #14141499 !important;
+window {
+  background-color: rgba(20, 20, 20, 0.6) !important;
 
   -moz-appearance: none !important;
 
@@ -38,7 +35,6 @@ window,
 }
 
 .tab-background[selected="true"] {
-
   -moz-appearance: none !important;
 
   background-image: none !important;
@@ -80,10 +76,10 @@ window,
   display: none !important;
 }
 .titlebar-buttonbox {
-/*   display: none !important; */
+  /*   display: none !important; */
   margin-left: 7px !important;
   margin-right: 15px !important;
-} 
+}
 #back-button {
   display: none !important;
 }
@@ -99,7 +95,7 @@ window,
   border-top: 0px !important;
 }
 #nav-bar {
-  background: #14141499 !important;
+  background: rgba(20, 20, 20, 0.8) !important;
   border: none !important;
   box-shadow: none !important;
   margin-top: -1px !important;
@@ -111,17 +107,17 @@ window,
 #history-panel,
 #sidebar-search-container,
 #bookmarksPanel {
- 	background: #14141499 !important;
+  background: #14141499 !important;
 }
 
 #search-box {
- 	-moz-appearance: none !important;
- 	background: #14141499  !important;
- 	border-radius: 6px !important;
+  -moz-appearance: none !important;
+  background: #14141499 !important;
+  border-radius: 6px !important;
 }
 
 #sidebar-search-container {
- 	background-color: #14141499  !important;
+  background-color: #14141499 !important;
 }
 
 #sidebar-icon {
@@ -129,25 +125,25 @@ window,
 }
 
 .sidebar-placesTree {
- 	color: #bebebe  !important;
+  color: #bebebe !important;
 }
 
 #sidebar-switcher-target {
-	color: #bebebe  !important;
+  color: #bebebe !important;
 }
 
 #sidebar-header {
- 	background: #14141499  !important;
+  background: #14141499 !important;
 }
 
 #sidebar-box {
- 	--sidebar-background-color:#14141499  !important;
+  --sidebar-background-color: #14141499 !important;
 }
 
 #sidebar-splitter {
- 	border: none !important;
-	opacity: 1 !important;
-	background-color: #14141499  !important;
+  border: none !important;
+  opacity: 1 !important;
+  background-color: #14141499 !important;
 }
 /* URL BAR */
 
@@ -178,7 +174,6 @@ window,
 #identity-box {
   display: none;
 }
-
 
 #urlbar-input:focus {
   color: #fff !important;
