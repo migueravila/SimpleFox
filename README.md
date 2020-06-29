@@ -1,6 +1,6 @@
 # SimplerentFox
 
-A theme for Firefox and Thunderbird completly transparent (Now with system buttons and compatibility with Windows)
+A theme for Firefox and Thunderbird completly transparent (Now with system buttons and Bookmarks bar transparent)
 
 ## Firefox:
 
