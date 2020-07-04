@@ -1,6 +1,12 @@
 # SimplerentFox
 
-A theme for Firefox and Thunderbird completly transparent (Now with system buttons and Bookmarks bar transparent)
+A theme for Firefox and Thunderbird completly transparent
+
+#### Features:
+- Compressed files for no custom rules
+- No-Compressed files for custom rules
+- Tab bar, URLBar and Sidebar transparent
+- Some buttoms removed (But can be added again)
 
 ## Firefox:
 
