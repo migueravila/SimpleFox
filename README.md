@@ -1,12 +1,14 @@
 # SimplerentFox
 
-A theme for Firefox and Thunderbird completly transparent
+<img title="" src="https://github.githubassets.com/images/icons/emoji/unicode/1f98a.png" alt="fox_face" width="50"> A theme for Firefox and Thunderbird completly transparent
 
 #### Features:
-- Compressed files for no custom rules
-- No-Compressed files for custom rules
-- Tab bar, URLBar and Sidebar transparent
-- Some buttoms removed (But can be added again)
+
+- Compressed files
+- Non-Compressed files for custom rules
+- Variables for custom opacity and colors
+- Tab bar, URLBar and Sidebar transparent!
+- Back, Forward and menu buttons removed! (They can be added again in the non-compressed files)
 
 ## Firefox:
 
@@ -22,9 +24,9 @@ A theme for Firefox and Thunderbird completly transparent
 6. E N J O Y 💜
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Firefox_1.png)
-   
-   ### Some custom preferences:
-   
+
+### Some custom preferences:
+
    You can choose between both files `userChrome__WithoutURLBar` and `userChrome__WithURLBar` . Don't forget to delete the rest of the text in the title and just have `userChrome`! 
 
 #### Without URL Bar:
@@ -34,8 +36,6 @@ A theme for Firefox and Thunderbird completly transparent
 #### With URL Bar:
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/FirefoxCUB.png)
-
-
 
 ## Thunderbird:
 
