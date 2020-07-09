@@ -18,11 +18,16 @@ Without URL Bar Version
 
 */
 
-/* Variables */
+/* 
 
+V A R I A B L E S 
+
+Here you can change the opacity level and the main color of the browser. Also the color of the selections (When you select text)
+
+*/
 
 :root {
-  --srf-color-primary: var(--srf-color-primary);
+  --srf-color-primary: #14141499;
   --srf-color-selection: #bebebe;
 }
 
@@ -53,11 +58,14 @@ window,
 
 ::selection {
   background-color: var(--srf-color-selection);
+  /* Text color of your selection */
   color: #141414;
 }
 
+/* 
+T A B S 
+*/
 
-/* Tabs transparency: */
 :root {
   --tabs-border: transparent !important;
 }
@@ -65,7 +73,6 @@ window,
   border: none !important;
 }
 .tab-background[selected="true"] {
-
   -moz-appearance: none !important;
 
   background-image: none !important;
@@ -90,6 +97,7 @@ window,
 }
 
 /* 
+
 B U T T O N S 
 
 Here you can comment if you want your buttons to be showed up!
@@ -116,7 +124,6 @@ Here you can comment if you want your buttons to be showed up!
   display: none !important;
 }
 
-
 /* 
 N A V B A R
 */
@@ -138,20 +145,24 @@ N A V B A R
   border-bottom-width: -1px !important;
 }
 
+/* 
+S I D E - B A R
+*/
+
 #history-panel,
 #sidebar-search-container,
 #bookmarksPanel {
- 	background: var(--srf-color-primary) !important;
+  background: var(--srf-color-primary) !important;
 }
 
 #search-box {
- 	-moz-appearance: none !important;
- 	background: var(--srf-color-primary)  !important;
- 	border-radius: 6px !important;
+  -moz-appearance: none !important;
+  background: var(--srf-color-primary) !important;
+  border-radius: 6px !important;
 }
 
 #sidebar-search-container {
- 	background-color: var(--srf-color-primary)  !important;
+  background-color: var(--srf-color-primary) !important;
 }
 
 #sidebar-icon {
@@ -159,25 +170,25 @@ N A V B A R
 }
 
 .sidebar-placesTree {
- 	color: #bebebe  !important;
+  color: #bebebe !important;
 }
 
 #sidebar-switcher-target {
-	color: #bebebe  !important;
+  color: #bebebe !important;
 }
 
 #sidebar-header {
- 	background: var(--srf-color-primary)  !important;
+  background: var(--srf-color-primary) !important;
 }
 
 #sidebar-box {
- 	--sidebar-background-color:var(--srf-color-primary)  !important;
+  --sidebar-background-color: var(--srf-color-primary) !important;
 }
 
 #sidebar-splitter {
- 	border: none !important;
-	opacity: 1 !important;
-	background-color: var(--srf-color-primary)  !important;
+  border: none !important;
+  opacity: 1 !important;
+  background-color: var(--srf-color-primary) !important;
 }
 
 /* 
@@ -192,81 +203,90 @@ U R L - B A R
     (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
   ) !important;
 }
+
 #urlbar-background {
   background: transparent !important;
   border: none !important;
 }
+
 #urlbar[breakout]:not([open]) {
   bottom: calc(
     (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
   ) !important;
 }
+
 #urlbar-background {
   animation: none !important;
 }
+
 #urlbar-input-container {
   padding: 0 !important;
   height: 100% !important;
 }
+
 #identity-box {
   display: none;
 }
 
 #urlbar .urlbarView {
-   display: none !important;
+  display: none !important;
 }
 
 #searchbar {
-	background: var(--bf-bg) !important;
-	border: none !important;
+  background: var(--bf-bg) !important;
+  border: none !important;
 }
 
 .searchbar-textbox {
-	color: var(--bf-focus-fg) !important;
-	font-weight: 700 !important;
+  color: var(--bf-focus-fg) !important;
+  font-weight: 700 !important;
 }
 
 @-moz-document url(chrome://browser/content/browser.xhtml) {
-    #urlbar[breakout][breakout-extend] {
-        top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
-        left: 0 !important;
-        width: 100% !important;
-    }
-    
-    #urlbar[breakout][breakout-extend] > #urlbar-input-container {
-        height: var(--urlbar-height) !important;
-        padding-block: 0 !important;
-        padding-inline: 0 !important;
-    }
-    
-    #urlbar[breakout][breakout-extend] > #urlbar-background {
-        animation-name: none !important;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, .05) !important;
-    }
-    .urlbarView {
-        margin-inline: 0 !important;
-        width: 100% !important;
-    }
+  #urlbar[breakout][breakout-extend] {
+    top: calc(
+      (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+    ) !important;
+    left: 0 !important;
+    width: 100% !important;
+  }
 
-    .urlbarView-row {
-        padding-block: 0 !important;
-    }
-    .urlbarView-type-icon {
-        min-width: 16px !important;
-        height: 16px !important;
-        margin-bottom: 0 !important;
-        margin-inline-start: 0 !important;
-    }
-    
-    .urlbarView-favicon {
-        margin-inline-start: 20px !important;
-    }
-    #urlbar-input-container[pageproxystate="invalid"] #urlbar-go-button {
-        display: block !important;
-    }
-    #pageActionButton {
-        display: block !important;
-    }
+  #urlbar[breakout][breakout-extend] > #urlbar-input-container {
+    height: var(--urlbar-height) !important;
+    padding-block: 0 !important;
+    padding-inline: 0 !important;
+  }
+
+  #urlbar[breakout][breakout-extend] > #urlbar-background {
+    animation-name: none !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) !important;
+  }
+  .urlbarView {
+    margin-inline: 0 !important;
+    width: 100% !important;
+  }
+
+  .urlbarView-row {
+    padding-block: 0 !important;
+  }
+  .urlbarView-type-icon {
+    min-width: 16px !important;
+    height: 16px !important;
+    margin-bottom: 0 !important;
+    margin-inline-start: 0 !important;
+  }
+
+  .urlbarView-favicon {
+    margin-inline-start: 20px !important;
+  }
+
+  #urlbar-input-container[pageproxystate="invalid"] #urlbar-go-button {
+    display: block !important;
+  }
+
+  #pageActionButton {
+    display: block !important;
+  }
 }
 
 /* 
