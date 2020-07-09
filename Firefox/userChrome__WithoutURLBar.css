@@ -1,5 +1,11 @@
 
 /* Window transparency: */
+
+:root {
+  --srf-color-primary: #14141499;
+  --srf-color-selection: #bebebe;
+}
+
 window,
 #main-window,
 #toolbar-menubar,
