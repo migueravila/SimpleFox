@@ -1,6 +1,6 @@
 # SimplerentFox
 
-<img title="" src="https://github.githubassets.com/images/icons/emoji/unicode/1f98a.png" alt="fox_face" width="50"> A theme for Firefox and Thunderbird completly transparent
+> ### 🦊 A theme for Firefox and Thunderbird completly transparent
 
 #### Features:
 
@@ -20,14 +20,19 @@
 2. A dialog will be shown to you and press the `I accept the risk` button.
 3. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`**, **`layers.acceleration.force-enabled`**, **`gfx.webrender.all`**, and **`svg.context-properties.content.enabled`**. Change them to **True**
 4. Go to your Firefox profile located in `$HOME/.mozilla/firefox/XXXXXXX.default-release/`.
-5. Create a folder and name it **`chrome`** (with lowercase) and then paste the `userChrome.css` and `userContent.css` files into it. 
-6. E N J O Y 💜
+5. Create a folder and name it **`chrome`** (with lowercase) and then paste the `userChrome.css` and `userContent.css` (There's only one `userContent.css` ) files into it. 
+6. (Optional) If you don't know if use a theme or not for you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox/)
+7. E N J O Y 🦊
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Firefox_1.png)
 
 ### Some custom preferences:
 
-   You can choose between both files `userChrome__WithoutURLBar` and `userChrome__WithURLBar` . Don't forget to delete the rest of the text in the title and just have `userChrome`! 
+- You can choose between both files `userChrome__WithoutURLBar` and `userChrome__WithURLBar` . Don't forget to delete the rest of the text in the title and just have `userChrome`! 
+
+- You can check the sections in the `no-compressed` files and make the changes you want! 
+  
+  - You can change wich buttons to display, the colors and the 
 
 #### Without URL Bar:
 
