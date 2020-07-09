@@ -14,15 +14,21 @@ ____) | | | | | | | |_) | |  __/ | |  __/ | | | |_
                                                     
  
 Without URL Bar Version
+
+
 */
+
+/* Variables */
 
 
 :root {
-  --srf-color-primary: #14141499;
+  --srf-color-primary: var(--srf-color-primary);
   --srf-color-selection: #bebebe;
 }
 
-/* Window transparency: */
+/* 
+G E N E R A L 
+*/
 
 window,
 #main-window,
@@ -31,28 +37,26 @@ window,
 #PersonalToolbar,
 #navigator-toolbox,
 #sidebar-box {
-  background-color: #14141499 !important;
+  background-color: var(--srf-color-primary) !important;
   -moz-appearance: none !important;
   background-image: none !important;
   border: none !important;
 }
 
-
 window,
 #nav-bar {
-  background-color: #14141499 !important;
-
+  background-color: var(--srf-color-primary) !important;
   -moz-appearance: none !important;
-
   background-image: none !important;
-
   box-shadow: none !important;
 }
 
 ::selection {
-  background-color: #bebebe;
+  background-color: var(--srf-color-selection);
   color: #141414;
 }
+
+
 /* Tabs transparency: */
 :root {
   --tabs-border: transparent !important;
@@ -60,7 +64,6 @@ window,
 .tab-background {
   border: none !important;
 }
-
 .tab-background[selected="true"] {
 
   -moz-appearance: none !important;
@@ -72,27 +75,35 @@ window,
   opacity: 0 !important;
 }
 
-/* Hide separators between background tabs */
 .tabbrowser-tab::before {
   opacity: 0 !important;
   border-left: none !important;
 }
 
-/* Hide border from rightmost background tab */
 .tabbrowser-tab::after {
   opacity: 0 !important;
   border-left: none !important;
 }
 
-/* Remove placeholder right border */
 .titlebar-placeholder {
   border: none !important;
 }
-/* Buttons hide: */
+
+/* 
+B U T T O N S 
+
+Here you can comment if you want your buttons to be showed up!
+
+*/
 
 #forward-button {
   display: none !important;
 }
+
+#back-button {
+  display: none !important;
+}
+
 .titlebar-spacer {
   display: none !important;
 }
@@ -100,19 +111,15 @@ window,
 #tracking-protection-icon-container {
   display: none !important;
 }
+
 #PanelUI-button {
   display: none !important;
 }
-.titlebar-buttonbox {
-/*   display: none !important; */
-  margin-left: 7px !important;
-  margin-right: 15px !important;
-} 
-#back-button {
-  display: none !important;
-}
 
-/* NAVBAR */
+
+/* 
+N A V B A R
+*/
 
 /* Remove border under navbar */
 #navigator-toolbox::after {
@@ -123,7 +130,7 @@ window,
   border-top: 0px !important;
 }
 #nav-bar {
-  background: #14141499 !important;
+  background: var(--srf-color-primary) !important;
   border: none !important;
   box-shadow: none !important;
   margin-top: -1px !important;
@@ -135,17 +142,17 @@ window,
 #history-panel,
 #sidebar-search-container,
 #bookmarksPanel {
- 	background: #14141499 !important;
+ 	background: var(--srf-color-primary) !important;
 }
 
 #search-box {
  	-moz-appearance: none !important;
- 	background: #14141499  !important;
+ 	background: var(--srf-color-primary)  !important;
  	border-radius: 6px !important;
 }
 
 #sidebar-search-container {
- 	background-color: #14141499  !important;
+ 	background-color: var(--srf-color-primary)  !important;
 }
 
 #sidebar-icon {
@@ -161,17 +168,17 @@ window,
 }
 
 #sidebar-header {
- 	background: #14141499  !important;
+ 	background: var(--srf-color-primary)  !important;
 }
 
 #sidebar-box {
- 	--sidebar-background-color:#14141499  !important;
+ 	--sidebar-background-color:var(--srf-color-primary)  !important;
 }
 
 #sidebar-splitter {
  	border: none !important;
 	opacity: 1 !important;
-	background-color: #14141499  !important;
+	background-color: var(--srf-color-primary)  !important;
 }
 /* URL BAR */
 
@@ -219,6 +226,7 @@ window,
 	color: var(--bf-focus-fg) !important;
 	font-weight: 700 !important;
 }
+
 @-moz-document url(chrome://browser/content/browser.xhtml) {
     #urlbar[breakout][breakout-extend] {
         top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
