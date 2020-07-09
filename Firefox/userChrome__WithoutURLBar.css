@@ -121,11 +121,10 @@ Here you can comment if you want your buttons to be showed up!
 N A V B A R
 */
 
-/* Remove border under navbar */
 #navigator-toolbox::after {
   border-bottom: 0px !important;
 }
-/* Remove border above navbar */
+
 #navigator-toolbox::after {
   border-top: 0px !important;
 }
@@ -138,7 +137,7 @@ N A V B A R
   margin-bottom: -1px !important;
   border-bottom-width: -1px !important;
 }
-/* Sidebar */
+
 #history-panel,
 #sidebar-search-container,
 #bookmarksPanel {
@@ -180,7 +179,10 @@ N A V B A R
 	opacity: 1 !important;
 	background-color: var(--srf-color-primary)  !important;
 }
-/* URL BAR */
+
+/* 
+U R L - B A R
+*/
 
 #urlbar[breakout] {
   margin-inline-start: 0px !important;
@@ -210,12 +212,9 @@ N A V B A R
   display: none;
 }
 
-
 #urlbar .urlbarView {
    display: none !important;
 }
-
-
 
 #searchbar {
 	background: var(--bf-bg) !important;
@@ -270,3 +269,6 @@ N A V B A R
     }
 }
 
+/* 
+Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+*/
