@@ -19,7 +19,7 @@ V A R I A B L E S
 Here you can change the opacity level and the main color of the browser. Also the color of the selections (When you select text)
 */
 :root {
-  --srf-color-primary: #14141499;
+  --srf-color-primary: rgba(20, 20, 20, 0.6);
   --srf-color-selection: #eaeaea;
 }
 /* 
