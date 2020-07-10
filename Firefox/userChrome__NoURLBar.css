@@ -13,7 +13,7 @@ ____) | | | | | | | |_) | |  __/ | |  __/ | | | |_
 |_|  \___/_/\_\                                      
                                                     
  
-Without URL Bar Version
+No URL Bar Version
 
 
 */
@@ -28,7 +28,7 @@ Here you can change the opacity level and the main color of the browser. Also th
 
 :root {
   --srf-color-primary: #14141499;
-  --srf-color-selection: #bebebe;
+  --srf-color-selection: #60b48a;
 }
 
 /* 
@@ -41,18 +41,12 @@ window,
 #TabsToolbar,
 #PersonalToolbar,
 #navigator-toolbox,
-#sidebar-box {
-  background-color: var(--srf-color-primary) !important;
-  -moz-appearance: none !important;
-  background-image: none !important;
-  border: none !important;
-}
-
-window,
+#sidebar-box,
 #nav-bar {
   background-color: var(--srf-color-primary) !important;
   -moz-appearance: none !important;
   background-image: none !important;
+  border: none !important;
   box-shadow: none !important;
 }
 
