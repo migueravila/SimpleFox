@@ -126,15 +126,9 @@ N A V B A R
 
 #navigator-toolbox::after {
   border-bottom: 0px !important;
-}
-
-#navigator-toolbox::after {
   border-top: 0px !important;
 }
 #nav-bar {
-  background: var(--srf-color-primary) !important;
-  border: none !important;
-  box-shadow: none !important;
   margin-top: -1px !important;
   border-top-width: -1px !important;
   margin-bottom: -1px !important;
@@ -157,28 +151,20 @@ S I D E - B A R
   border-radius: 6px !important;
 }
 
-#sidebar-search-container {
-  background-color: var(--srf-color-primary) !important;
-}
-
 #sidebar-icon {
   display: none !important;
 }
 
 .sidebar-placesTree {
-  color: #bebebe !important;
+  color: var(--srf-color-selection) !important;
 }
 
 #sidebar-switcher-target {
-  color: #bebebe !important;
+  color: var(--srf-color-selection) !important;
 }
 
 #sidebar-header {
   background: var(--srf-color-primary) !important;
-}
-
-#sidebar-box {
-  --sidebar-background-color: var(--srf-color-primary) !important;
 }
 
 #sidebar-splitter {
