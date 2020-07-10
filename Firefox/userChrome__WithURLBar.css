@@ -69,7 +69,6 @@ T A B S
 
 .tab-background[selected="true"] {
   -moz-appearance: none !important;
-
   background-image: none !important;
 }
 .tabbrowser-tabs {
@@ -125,9 +124,6 @@ N A V B A R
 
 #navigator-toolbox::after {
   border-bottom: 0px !important;
-}
-
-#navigator-toolbox::after {
   border-top: 0px !important;
 }
 
@@ -166,11 +162,11 @@ S I D E - B A R
 }
 
 .sidebar-placesTree {
-  color: #bebebe !important;
+  color: var(--srf-color-selection) !important;
 }
 
 #sidebar-switcher-target {
-  color: #bebebe !important;
+  color: var(--srf-color-selection) !important;
 }
 
 #sidebar-header {
