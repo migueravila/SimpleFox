@@ -4,11 +4,11 @@
 
 #### Features:
 
-- Compressed files
-- Non-Compressed files for custom rules
-- Variables for custom opacity and colors
-- Tab bar, URLBar and Sidebar transparent!
-- Back, Forward and menu buttons removed! (They can be added again in the non-compressed files)
+- **Compressed** files
+- **As simple as you want**: Non-Compressed files for custom rules!
+- **Variables** for custom opacity and colors
+- Tab bar, URLBar and Sidebar **transparent**!
+- **Keyboard** Centered Design!
 
 ## Firefox:
 
