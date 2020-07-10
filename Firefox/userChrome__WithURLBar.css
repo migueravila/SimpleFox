@@ -47,15 +47,6 @@ window,
   -moz-appearance: none !important;
   background-image: none !important;
   border: none !important;
-}
-
-window {
-  background-color: rgba(20, 20, 20, 0.6) !important;
-
-  -moz-appearance: none !important;
-
-  background-image: none !important;
-
   box-shadow: none !important;
 }
 
