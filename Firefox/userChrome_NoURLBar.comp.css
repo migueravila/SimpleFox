@@ -20,7 +20,7 @@ Here you can change the opacity level and the main color of the browser. Also th
 */
 :root {
   --srf-color-primary: #14141499;
-  --srf-color-selection: #60b48a;
+  --srf-color-selection: #eaeaea;
 }
 /* 
 C O M P R E S S E D - C O D E 
