@@ -196,10 +196,6 @@ U R L - B A R
   ) !important;
 }
 
-#urlbar-background {
-  background: transparent !important;
-  border: none !important;
-}
 #urlbar[breakout]:not([open]) {
   bottom: calc(
     (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
@@ -207,6 +203,8 @@ U R L - B A R
 }
 
 #urlbar-background {
+  background: var(--srf-color-urlbar) !important;
+  border: none !important;
   animation: none !important;
 }
 
@@ -240,7 +238,6 @@ U R L - B A R
   padding-inline-start: 4px !important;
 }
 
-#urlbar-background {
-  background: var(--srf-color-urlbar) !important;
-  border: none !important;
-}
+/* 
+Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+*/
