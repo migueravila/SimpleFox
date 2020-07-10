@@ -187,7 +187,7 @@ U R L - B A R
 }
 
 @-moz-document url(chrome://browser/content/browser.xhtml) {
-#urlbar[breakout][breakout-extend] > #urlbar-background {
+  #urlbar[breakout][breakout-extend] > #urlbar-background {
     animation-name: none !important;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) !important;
   }
@@ -202,7 +202,7 @@ U R L - B A R
 #urlbar-background {
   background: transparent !important;
   border: none !important;
-animation: none !important;
+  animation: none !important;
 }
 
 #urlbar-input-container {
