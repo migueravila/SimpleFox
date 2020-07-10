@@ -63,14 +63,16 @@ T A B S
 :root {
   --tabs-border: transparent !important;
 }
+
 .tab-background {
   border: none !important;
 }
+
 .tab-background[selected="true"] {
   -moz-appearance: none !important;
-
   background-image: none !important;
 }
+
 .tabbrowser-tabs {
   border: none !important;
   opacity: 0 !important;
