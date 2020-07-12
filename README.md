@@ -33,6 +33,18 @@
 - You can use the `compressed` files if you want a simpler experience (They also have **variables** so you can change the colors)
   
 
+### Shortcuts!
+> This userstyle was made for a keyboard centered usage, like Tilling Window Manager users or just cool people that loves them! 🤖
+In this section i show you some cool shortcuts you can use with this theme for a better experience
+
+- `Ctrl + L` It focuses on the URLBar, very useful for quick searches and bookmarks usage
+- `Ctrl + B` It shows you the Bookmarks / History Bar 
+- `Ctrl + T` Opens a new Tab
+- `Ctrl + W` Closes a Tab
+- `Ctrl + Shift + T` Re-opens a tab that you just close
+- `Ctrl + R` Refresh the page you're on
+- `Ctrl + Shift + A` Quick open for Add-Ons
+-
 #### Without URL Bar:
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/FirefoxWUB.png)
