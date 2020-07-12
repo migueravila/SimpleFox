@@ -36,9 +36,13 @@
 
 In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#eaeaea`
 
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/code-1.png)
+
 #### A button you need doesn't show? You can easily add them again
 
 In this section you can comment adding `/* */` around the button you want to show. 
+
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/code-2.png)
   
 
 ### Shortcuts!
