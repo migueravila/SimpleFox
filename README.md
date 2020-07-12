@@ -1,6 +1,6 @@
 # SimplerentFox
 
-> ### 🦊 A theme for Firefox and Thunderbird completly transparent
+> ### 🦊 A Relaxed theme for Firefox completly transparent and keyboard centered.
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Firefox.png)
 
@@ -31,11 +31,19 @@
 - You can check the sections in the `no-compressed` files and make the changes you want! 
 
 - You can use the `compressed` files if you want a simpler experience (They also have **variables** so you can change the colors)
+
+#### Your own colors and opacity:
+
+In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#eaeaea`
+
+#### A button you need doesn't show? You can easily add them again
+
+In this section you can comment adding `/* */` around the button you want to show. 
   
 
 ### Shortcuts!
 > This userstyle was made for a keyboard centered usage, like Tilling Window Manager users or just cool people that loves them! 🤖
-In this section i show you some cool shortcuts you can use with this theme for a better experience
+In this section I show you some cool shortcuts you can use with this theme for a better experience
 
 - `Ctrl + L` It focuses on the URLBar, very useful for quick searches and bookmarks usage
 - `Ctrl + B` It shows you the Bookmarks / History Bar 
@@ -44,7 +52,7 @@ In this section i show you some cool shortcuts you can use with this theme for a
 - `Ctrl + Shift + T` Re-opens a tab that you just close
 - `Ctrl + R` Refresh the page you're on
 - `Ctrl + Shift + A` Quick open for Add-Ons
--
+
 #### Without URL Bar:
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/FirefoxWUB.png)
