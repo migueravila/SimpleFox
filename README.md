@@ -50,7 +50,7 @@ In this section you can comment adding `/* */` around the button you want to sho
 In this section I show you some cool shortcuts you can use with this theme for a better experience
 
 - `Alt` You can access to the global menu for an extended options you need
-- `Ctrl + L` focuses on the URLBar, very useful for quick searches and bookmarks usage
+- `Ctrl + L` focuses the URLBar, which is very useful for quick searches and bookmarks usage
 - `Ctrl + B` shows you the Bookmarks / History Bar 
 - `Ctrl + T` Opens a new Tab
 - `Ctrl + W` Closes a Tab
