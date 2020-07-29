@@ -32,13 +32,13 @@
 
 - You can use the `compressed` files if you want a simpler experience (They also have **variables** so you can change the colors)
 
-#### Your own colors and opacity:
+##### Your own colors and opacity:
 
 In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#eaeaea`
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/code-1.png)
 
-#### A button you need doesn't show? You can easily add them again
+##### A button you need doesn't show? You can easily add them again
 
 In this section you can comment adding `/* */` around the button you want to show. 
 
@@ -57,6 +57,16 @@ In this section I show you some cool shortcuts you can use with this theme for a
 - `Ctrl + Shift + T` Re-opens a tab that you just closed
 - `Ctrl + R` Refresh the page you're on
 - `Ctrl + Shift + A` Quick open for Add-Ons
+
+### Ports to Different OS
+> This userstyle was made in Linux and in some other systems, some features can be different to implement and different to use. This is currently an experimental sub-project.
+
+##### Windows port
+Using transparency with windows brakes the window behavior, but almost all Keyboard-centered features can be used!
+
+> NOTE: You can change the colors in the variable section of the code and still add transparency but the window manager will have some bugs with maximized firefox.
+
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
 
 #### Without URL Bar:
 
