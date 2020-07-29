@@ -59,7 +59,7 @@ In this section I show you some cool shortcuts you can use with this theme for a
 - `Ctrl + Shift + A` Quick open for Add-Ons
 
 ### Ports to Different OS
-> This userstyle was made in Linux and in some other systems, some features can be different to implement and different to use. This is currently an experimental sub-project.
+> This userstyle was made in Linux and looking for a simple and clean look for the Firefox Web browser and ports to other OS are on mind.
 
 ##### Windows port
 A Simple and Keyboard Centered userstyle for Windows!
