@@ -12,7 +12,7 @@ ____) | | | | | | | |_) | |  __/ | |  __/ | | | |_
 | | | (_) >  <                                       
 |_|  \___/_/\_\                                      
                                                     
- 
+Windows Edition
 With URL Bar Version
 
 
@@ -22,12 +22,12 @@ With URL Bar Version
 
 V A R I A B L E S 
 
-Here you can change the opacity level and the main color of the browser. Also the color of the selections (When you select text)
+Here you can change the main color of the browser. Also the color of the selections (When you select text)
 
 */
 
 :root {
-  --srf-color-primary: rgba(20, 20, 20, 0.6);
+  --srf-color-primary: rgb(20, 20, 20,);
   --srf-color-selection: #bebebe;
   --srf-color-urlbar: rgba(20, 20, 20, 0.6);
 }
