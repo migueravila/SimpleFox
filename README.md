@@ -62,11 +62,11 @@ In this section I show you some cool shortcuts you can use with this theme for a
 > This userstyle was made in Linux and in some other systems, some features can be different to implement and different to use. This is currently an experimental sub-project.
 
 ##### Windows port
-Using transparency with windows brakes the window behavior, but almost all Keyboard-centered features can be used!
-
-> NOTE: You can change the colors in the variable section of the code and still add transparency but the window manager will have some bugs with maximized firefox.
+A Simple and Keyboard Centered userstyle for Windows!
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
+
+> NOTE: Transparency in Windows breakes the window behavior. You can change the colors in the variable section of the code and still add transparency, but the window manager will have some bugs with maximized firefox.
 
 #### Without URL Bar:
 
