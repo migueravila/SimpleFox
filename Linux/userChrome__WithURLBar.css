@@ -90,10 +90,6 @@ T A B S
   border: none !important;
 }
 
-.tabbrowser-tab:not([pinned]) .tab-close-button { 
-  display:none !important; 
-}
-
 /* 
 
 B U T T O N S 
@@ -120,6 +116,10 @@ Here you can comment if you want your buttons to be showed up!
 
 #PanelUI-button {
   display: none !important;
+}
+
+.tabbrowser-tab:not([pinned]) .tab-close-button { 
+  display:none !important; 
 }
 
 /* 
