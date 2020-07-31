@@ -20,6 +20,11 @@ Here you can change the opacity level and the main color of the browser. Also th
 */
 :root {
   --srf-color-primary: rgb(20, 20, 20);
+  /* 
+  WARNING: Transparency breakes the window behavior, 
+  you can still add transparency but the 
+  window manager will have some bugs. 
+  */
   --srf-color-selection: #bebebe;
   --srf-color-urlbar: rgba(20, 20, 20, 0.6);
 }
