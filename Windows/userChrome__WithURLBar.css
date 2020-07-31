@@ -27,7 +27,7 @@ Here you can change the main color of the browser. Also the color of the selecti
 */
 
 :root {
-  --srf-color-primary: rgb(20, 20, 20,);
+  --srf-color-primary: rgb(20, 20, 20);
   /* 
   WARNING: Transparency breakes the window behavior, 
   you can still add transparency but the 
