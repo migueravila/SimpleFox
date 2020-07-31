@@ -123,6 +123,10 @@ Here you can comment if you want your buttons to be showed up!
   display: none !important;
 }
 
+.tabbrowser-tab:not([pinned]) .tab-close-button { 
+  display:none !important; 
+}
+
 /* 
 N A V B A R
 */

@@ -90,6 +90,10 @@ T A B S
   border: none !important;
 }
 
+.tabbrowser-tab:not([pinned]) .tab-close-button { 
+  display:none !important; 
+}
+
 /* 
 
 B U T T O N S 
