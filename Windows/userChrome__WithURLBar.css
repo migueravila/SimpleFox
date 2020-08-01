@@ -252,5 +252,23 @@ U R L - B A R
 }
 
 /* 
-Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+P A T C H E S
 */
+
+#tabbrowser-tabpanels{
+  background-color: var(0,0,0) !important;
+}
+
+#statuspanel-label:-moz-lwtheme-brighttext{
+  background-color: rgb(50,50,52) !important;
+  color: rgb(187,187,189) !important;
+  border-color: grey !important;
+}
+
+.panel-subview-body,
+#permList,
+scrollbar{
+ color: inherit;
+ scrollbar-color: currentColor transparent;
+ scrollbar-width: thin 
+}
