@@ -66,6 +66,8 @@ A Simple and Keyboard Centered userstyle for Windows!
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
 
+In addition to the `userChrome.css` and `userContent.css` files you'll also need the `dark_additional_windows.css`, `dark_checkboxes_and_radios.css` and `dark_context_menus.css` files in your **chrome** directory
+
 > NOTE: Transparency in Windows breakes the window behavior. You can change the colors in the variable section of the code and still add transparency, but the window manager will have some bugs with maximized firefox.
 
 #### Without URL Bar:
