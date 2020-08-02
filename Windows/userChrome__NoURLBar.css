@@ -15,9 +15,13 @@ ____) | | | | | | | |_) | |  __/ | |  __/ | | | |_
 Windows Edition
 No URL Bar Version
 
-
+Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+Patched by u/CommonSenseUsed or @jruaaa on github
+All Addons by u/It_Was_the_other_guy or @MrOtherGuy
 */
-
+@import url("dark_checkboxes_and_radios.css");
+@import url("dark_additional_windows.css");
+@import url("dark_context_menus.css");
 /* 
 
 V A R I A B L E S 
@@ -238,5 +242,23 @@ U R L - B A R
 }
 
 /* 
-Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+P A T C H E S
 */
+
+#tabbrowser-tabpanels{
+  background-color: var(0,0,0) !important;
+}
+
+#statuspanel-label:-moz-lwtheme-brighttext{
+  background-color: rgb(50,50,52) !important;
+  color: rgb(187,187,189) !important;
+  border-color: grey !important;
+}
+
+.panel-subview-body,
+#permList,
+scrollbar{
+ color: inherit;
+ scrollbar-color: currentColor transparent;
+ scrollbar-width: thin 
+}
