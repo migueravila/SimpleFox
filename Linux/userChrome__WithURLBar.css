@@ -118,8 +118,12 @@ Here you can comment if you want your buttons to be showed up!
   display: none !important;
 }
 
-.tabbrowser-tab:not([pinned]) .tab-close-button { 
-  display:none !important; 
+.tabbrowser-tab:not([pinned]) .tab-close-button {
+  display: none !important;
+}
+
+hbox.tab-content .tab-icon-image {
+  display: none !important;
 }
 
 /* 
@@ -132,13 +136,12 @@ N A V B A R
 }
 
 #nav-bar {
-  background: rgba(20, 20, 20, 0.8) !important;
   border: none !important;
   box-shadow: none !important;
-  margin-top: -1px !important;
-  border-top-width: -1px !important;
-  margin-bottom: -1px !important;
-  border-bottom-width: -1px !important;
+  margin-top: 0px !important;
+  border-top-width: 0px !important;
+  margin-bottom: 0px !important;
+  border-bottom-width: 0px !important;
 }
 
 /* 
