@@ -29,14 +29,6 @@ Here you can change the opacity level and the main color of the browser. Also th
 :root {
   --srf-color-primary: #1f222965;
   --srf-color-selection: #bebebe;
-
-  --autocomplete-popup-background: var(--mff-bg) !important;
-  --default-arrowpanel-background: var(--mff-bg) !important;
-  --default-arrowpanel-color: #fefefa !important;
-  --lwt-toolbarbutton-icon-fill: var(--mff-icon-color) !important;
-  --panel-disabled-color: #f9f9fa80;
-  --toolbar-bgcolor: var(--mff-bg) !important;
-  --urlbar-separator-color: transparent !important;
 }
 
 /* 
