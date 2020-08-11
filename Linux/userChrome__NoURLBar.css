@@ -27,8 +27,16 @@ Here you can change the opacity level and the main color of the browser. Also th
 */
 
 :root {
-  --srf-color-primary: rgba(20, 20, 20, 0.6);
-  --srf-color-selection: #eaeaea;
+  --srf-color-primary: #1f222965;
+  --srf-color-selection: #bebebe;
+
+  --autocomplete-popup-background: var(--mff-bg) !important;
+  --default-arrowpanel-background: var(--mff-bg) !important;
+  --default-arrowpanel-color: #fefefa !important;
+  --lwt-toolbarbutton-icon-fill: var(--mff-icon-color) !important;
+  --panel-disabled-color: #f9f9fa80;
+  --toolbar-bgcolor: var(--mff-bg) !important;
+  --urlbar-separator-color: transparent !important;
 }
 
 /* 
@@ -92,6 +100,10 @@ T A B S
   border: none !important;
 }
 
+.tab-line {
+  display: none !important;
+}
+
 /* 
 
 B U T T O N S 
@@ -120,8 +132,12 @@ Here you can comment if you want your buttons to be showed up!
   display: none !important;
 }
 
-.tabbrowser-tab:not([pinned]) .tab-close-button { 
-  display:none !important; 
+.tabbrowser-tab:not([pinned]) .tab-close-button {
+  display: none !important;
+}
+
+hbox.tab-content .tab-icon-image {
+  display: none !important;
 }
 
 /* 
@@ -132,11 +148,14 @@ N A V B A R
   border-bottom: 0px !important;
   border-top: 0px !important;
 }
+
 #nav-bar {
-  margin-top: -1px !important;
-  border-top-width: -1px !important;
-  margin-bottom: -1px !important;
-  border-bottom-width: -1px !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-top: 0px !important;
+  border-top-width: 0px !important;
+  margin-bottom: 0px !important;
+  border-bottom-width: 0px !important;
 }
 
 /* 
@@ -175,6 +194,10 @@ S I D E - B A R
   border: none !important;
   opacity: 1 !important;
   background-color: var(--srf-color-primary) !important;
+}
+
+splitter#sidebar-splitter {
+  border: none !important;
 }
 
 /* 
