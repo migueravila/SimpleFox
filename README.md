@@ -77,3 +77,6 @@ In addition to the `userChrome.css` and `userContent.css` files you'll also need
 #### With URL Bar:
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/FirefoxCUB.png)
+
+### Hiding "This time, search with" URL bar message
+Hiding the message can give a more minimalistic URL bar. To hide the message additional search engines need to be removed, which can be done throught the _One-Click Search Engines_ option in the [Settings' Search tab](about:preferences#search).
