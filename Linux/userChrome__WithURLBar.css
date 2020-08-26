@@ -1,18 +1,14 @@
 /* 
+  ____  _                 _                     _   
+ / ___|(_)_ __ ___  _ __ | | ___ _ __ ___ _ __ | |_ 
+ \___ \| | '_ ` _ \| '_ \| |/ _ \ '__/ _ \ '_ \| __|
+  ___) | | | | | | | |_) | |  __/ | |  __/ | | | |_ 
+ |____/|_|_| |_| |_| .__/|_|\___|_|  \___|_| |_|\__|
+ |  ___|____  __   |_|                              
+ | |_ / _ \ \/ /                                    
+ |  _| (_) >  <                                     
+ |_|  \___/_/\_\                             
 
-_____ _                 _                     _    
-/ ____(_)               | |                   | |   
-| (___  _ _ __ ___  _ __ | | ___ _ __ ___ _ __ | |_  
-\___ \| | '_ ` _ \| '_ \| |/ _ \ '__/ _ \ '_ \| __| 
-____) | | | | | | | |_) | |  __/ | |  __/ | | | |_  
-|_____/|_|_| |_| |_| .__/|_|\___|_|  \___|_| |_|\__| 
-|  ____|           | |                               
-| |__ _____  __    |_|                               
-|  __/ _ \ \/ /                                      
-| | | (_) >  <                                       
-|_|  \___/_/\_\                                      
-                                                    
- 
 With URL Bar Version
 
 
@@ -27,9 +23,9 @@ Here you can change the opacity level and the main color of the browser. Also th
 */
 
 :root {
-  --srf-color-primary: rgba(20, 20, 20, 0.6);
-  --srf-color-selection: #bebebe;
-  --srf-color-urlbar: rgba(20, 20, 20, 0.6);
+    --srf-color-primary: rgba(20, 20, 20, 0.6);
+    --srf-color-selection: #bebebe;
+    --srf-color-urlbar: rgba(20, 20, 20, 0.6);
 }
 
 /* 
@@ -43,16 +39,16 @@ window,
 #PersonalToolbar,
 #navigator-toolbox,
 #sidebar-box {
-  background-color: var(--srf-color-primary) !important;
-  -moz-appearance: none !important;
-  background-image: none !important;
-  border: none !important;
-  box-shadow: none !important;
+    background-color: var(--srf-color-primary) !important;
+    -moz-appearance: none !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 ::selection {
-  background-color: var(--srf-color-selection);
-  color: #141414;
+    background-color: var(--srf-color-selection);
+    color: #141414;
 }
 
 /* 
@@ -60,34 +56,34 @@ T A B S
 */
 
 :root {
-  --tabs-border: transparent !important;
+    --tabs-border: transparent !important;
 }
 
 .tab-background {
-  border: none !important;
+    border: none !important;
 }
 
-.tab-background[selected="true"] {
-  -moz-appearance: none !important;
-  background-image: none !important;
+.tab-background[selected='true'] {
+    -moz-appearance: none !important;
+    background-image: none !important;
 }
 .tabbrowser-tabs {
-  border: none !important;
-  opacity: 0 !important;
+    border: none !important;
+    opacity: 0 !important;
 }
 
 .tabbrowser-tab::before {
-  opacity: 0 !important;
-  border-left: none !important;
+    opacity: 0 !important;
+    border-left: none !important;
 }
 
 .tabbrowser-tab::after {
-  opacity: 0 !important;
-  border-left: none !important;
+    opacity: 0 !important;
+    border-left: none !important;
 }
 
 .titlebar-placeholder {
-  border: none !important;
+    border: none !important;
 }
 
 /* 
@@ -99,31 +95,31 @@ Here you can comment if you want your buttons to be showed up!
 */
 
 #forward-button {
-  display: none !important;
+    display: none !important;
 }
 
 #back-button {
-  display: none !important;
+    display: none !important;
 }
 
 .titlebar-spacer {
-  display: none !important;
+    display: none !important;
 }
 
 #tracking-protection-icon-container {
-  display: none !important;
+    display: none !important;
 }
 
 #PanelUI-button {
-  display: none !important;
+    display: none !important;
 }
 
 .tabbrowser-tab:not([pinned]) .tab-close-button {
-  display: none !important;
+    display: none !important;
 }
 
 hbox.tab-content .tab-icon-image {
-  display: none !important;
+    display: none !important;
 }
 
 /* 
@@ -131,17 +127,17 @@ N A V B A R
 */
 
 #navigator-toolbox::after {
-  border-bottom: 0px !important;
-  border-top: 0px !important;
+    border-bottom: 0px !important;
+    border-top: 0px !important;
 }
 
 #nav-bar {
-  border: none !important;
-  box-shadow: none !important;
-  margin-top: 0px !important;
-  border-top-width: 0px !important;
-  margin-bottom: 0px !important;
-  border-bottom-width: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-top: 0px !important;
+    border-top-width: 0px !important;
+    margin-bottom: 0px !important;
+    border-bottom-width: 0px !important;
 }
 
 /* 
@@ -151,43 +147,43 @@ S I D E - B A R
 #history-panel,
 #sidebar-search-container,
 #bookmarksPanel {
-  background: var(--srf-color-primary) !important;
+    background: var(--srf-color-primary) !important;
 }
 
 #search-box {
-  -moz-appearance: none !important;
-  background: var(--srf-color-primary) !important;
-  border-radius: 6px !important;
+    -moz-appearance: none !important;
+    background: var(--srf-color-primary) !important;
+    border-radius: 6px !important;
 }
 
 #sidebar-search-container {
-  background-color: var(--srf-color-primary) !important;
+    background-color: var(--srf-color-primary) !important;
 }
 
 #sidebar-icon {
-  display: none !important;
+    display: none !important;
 }
 
 .sidebar-placesTree {
-  color: var(--srf-color-selection) !important;
+    color: var(--srf-color-selection) !important;
 }
 
 #sidebar-switcher-target {
-  color: var(--srf-color-selection) !important;
+    color: var(--srf-color-selection) !important;
 }
 
 #sidebar-header {
-  background: var(--srf-color-primary) !important;
+    background: var(--srf-color-primary) !important;
 }
 
 #sidebar-box {
-  --sidebar-background-color: var(--srf-color-primary) !important;
+    --sidebar-background-color: var(--srf-color-primary) !important;
 }
 
 #sidebar-splitter {
-  border: none !important;
-  opacity: 1 !important;
-  background-color: var(--srf-color-primary) !important;
+    border: none !important;
+    opacity: 1 !important;
+    background-color: var(--srf-color-primary) !important;
 }
 
 /* 
@@ -195,54 +191,54 @@ U R L - B A R
 */
 
 #urlbar[breakout] {
-  margin-inline-start: 0px !important;
-  width: 100% !important;
-  left: 0 !important;
-  top: calc(
-    (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
-  ) !important;
+    margin-inline-start: 0px !important;
+    width: 100% !important;
+    left: 0 !important;
+    top: calc(
+        (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+    ) !important;
 }
 
 #urlbar[breakout]:not([open]) {
-  bottom: calc(
-    (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
-  ) !important;
+    bottom: calc(
+        (var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2
+    ) !important;
 }
 
 #urlbar-background {
-  background: var(--srf-color-urlbar) !important;
-  border: none !important;
-  animation: none !important;
+    background: var(--srf-color-urlbar) !important;
+    border: none !important;
+    animation: none !important;
 }
 
 #urlbar-input-container {
-  padding: 0 !important;
-  height: 100% !important;
+    padding: 0 !important;
+    height: 100% !important;
 }
 
 #identity-box {
-  display: none;
+    display: none;
 }
 
 #urlbar-input:focus {
-  color: #fff !important;
+    color: #fff !important;
 }
 
-.megabar[open="true"] > #urlbar-background {
-  background: #fff !important;
+.megabar[open='true'] > #urlbar-background {
+    background: #fff !important;
 }
 
 .urlbarView {
-  margin-inline: 0 !important;
-  width: auto !important;
+    margin-inline: 0 !important;
+    width: auto !important;
 }
 
 .urlbarView-row {
-  padding: 0 2px !important;
+    padding: 0 2px !important;
 }
 
 .urlbarView-row-inner {
-  padding-inline-start: 4px !important;
+    padding-inline-start: 4px !important;
 }
 
 /* 
