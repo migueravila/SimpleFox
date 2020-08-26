@@ -1,6 +1,6 @@
 # SimplerentFox
 
-> ### 🦊 A Relaxed theme for Firefox completly transparent and keyboard centered.
+> ### 🦊 A Minimalist theme for Firefox transparent and keyboard centered.
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Firefox.png)
 
