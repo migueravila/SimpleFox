@@ -1,16 +1,13 @@
 /* 
-
-_____ _                 _                     _    
-/ ____(_)               | |                   | |   
-| (___  _ _ __ ___  _ __ | | ___ _ __ ___ _ __ | |_  
-\___ \| | '_ ` _ \| '_ \| |/ _ \ '__/ _ \ '_ \| __| 
-____) | | | | | | | |_) | |  __/ | |  __/ | | | |_  
-|_____/|_|_| |_| |_| .__/|_|\___|_|  \___|_| |_|\__| 
-|  ____|           | |                               
-| |__ _____  __    |_|                               
-|  __/ _ \ \/ /                                      
-| | | (_) >  <                                       
-|_|  \___/_/\_\                                      
+  ____  _                 _                     _   
+ / ___|(_)_ __ ___  _ __ | | ___ _ __ ___ _ __ | |_ 
+ \___ \| | '_ ` _ \| '_ \| |/ _ \ '__/ _ \ '_ \| __|
+  ___) | | | | | | | |_) | |  __/ | |  __/ | | | |_ 
+ |____/|_|_| |_| |_| .__/|_|\___|_|  \___|_| |_|\__|
+ |  ___|____  __   |_|                              
+ | |_ / _ \ \/ /                                    
+ |  _| (_) >  <                                     
+ |_|  \___/_/\_\                                        
                                                     
 Windows Edition
 With URL Bar Version
@@ -99,6 +96,10 @@ T A B S
   border: none !important;
 }
 
+.tab-line {
+  display: none !important;
+}
+
 /* 
 
 B U T T O N S 
@@ -129,6 +130,10 @@ Here you can comment if you want your buttons to be showed up!
 
 .tabbrowser-tab:not([pinned]) .tab-close-button { 
   display:none !important; 
+}
+
+hbox.tab-content .tab-icon-image {
+  display: none !important;
 }
 
 /* 
