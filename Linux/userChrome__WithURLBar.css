@@ -86,6 +86,10 @@ T A B S
     border: none !important;
 }
 
+.tab-line {
+  display: none !important;
+}
+
 /* 
 
 B U T T O N S 
