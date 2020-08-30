@@ -13,7 +13,6 @@
 - **Keyboard** Centered Design!
 
 ### Installation:
-`$HOME/.mozilla/firefox/XXXXXXX.default-release/`
 1. In the searchbar type `about:config`
 2. A dialog will be shown to you. Press the `I accept the risk` button.
 3. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`**, **`layers.acceleration.force-enabled`**, **`gfx.webrender.all`**, and **`svg.context-properties.content.enabled`**. Change them to **True**
