@@ -11,8 +11,6 @@
     -   [Shortcuts](#shortcuts)
     -   [Ports](#ports)
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/head2.png)
-
 ### Features
 
 -   **Compressed** files
