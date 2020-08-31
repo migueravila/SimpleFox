@@ -34,7 +34,7 @@ Here you can change the opacity level and the main color of the browser. Also th
   you can still add transparency but the 
   window manager will have some bugs. 
   */
-  --srf-color-selection: #eaeaea;
+  --srf-color-selection: #186efd60;
 }
 
 /* 
@@ -84,12 +84,7 @@ T A B S
   opacity: 0 !important;
 }
 
-.tabbrowser-tab::before {
-  opacity: 0 !important;
-  border-left: none !important;
-}
-
-.tabbrowser-tab::after {
+.tabbrowser-tab::before, .tabbrowser-tab::after{
   opacity: 0 !important;
   border-left: none !important;
 }
@@ -177,11 +172,11 @@ S I D E - B A R
 }
 
 .sidebar-placesTree {
-  color: var(--srf-color-selection) !important;
+  color: #EEE !important;
 }
 
 #sidebar-switcher-target {
-  color: var(--srf-color-selection) !important;
+  color: #EEE !important;
 }
 
 #sidebar-header {

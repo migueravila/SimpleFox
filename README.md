@@ -8,7 +8,8 @@
     -   [Features](#features)
     -   [Installation](#installation)
     -   [Customization](#customization)
-    -   [Shortcuts](#shortcuts)
+    -   [Usage](#usage)
+    -   [Startpage](#startpage)
     -   [Ports](#ports)
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/head2.png)
@@ -29,7 +30,7 @@
 4. Go to your Firefox profile:
     - If you're on Linux: `$HOME/.mozilla/firefox/XXXXXXX.default-release/`
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
-    - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX
+    - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX`
 5. Create a folder and name it **`chrome`** (with lowercase) and then paste the `userChrome.css` and `userContent.css` (There should be only one `userContent.css` ) files into it.
 6. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox/)
 7. E N J O Y 🦊
@@ -72,12 +73,14 @@ In this section you can comment adding `/* */` around the button you want to sho
   <img src="https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/code-2.png">
 </p>
 
-### Shortcuts
+### Usage
 
 > This userstyle was made for a keyboard centered usage, like Tilling Window Manager users or just cool people that loves them! 🤖
 > In this section I show you some cool shortcuts you can use with this theme for a better experience
 
 -   `Alt` You can access to the global menu for an extended options you need
+-   `Alt + Left Arrow` You can go Back
+-   `Alt + Right Arrow` You can go Forward
 -   `Ctrl + L` focuses the URLBar, which is very useful for quick searches and bookmarks usage
 -   `Ctrl + B` shows you the Bookmarks / History Bar
 -   `Ctrl + T` Opens a new Tab
@@ -85,6 +88,16 @@ In this section you can comment adding `/* */` around the button you want to sho
 -   `Ctrl + Shift + T` Re-opens a tab that you just closed
 -   `Ctrl + R` Refresh the page you're on
 -   `Ctrl + Shift + A` Quick open for Add-Ons
+
+### Startpage
+
+If anyone has the doubt, in almost all of the screenshots you can see a Startpage made for it. It's called [Bento 🍱](https://github.com/MiguelRAvila/Bento) and It's another project I made. It fits with the Firefox theme because It's done with the same principles: Minimalist, Simple and Elegant.
+
+<p align="center">
+  <img src="https://github.com/MiguelRAvila/Bento/blob/master/assets/preview.gif">
+</p>
+
+In the repo I have all the steps for you to use it!
 
 ### Ports
 
