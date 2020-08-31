@@ -10,6 +10,8 @@
     -   [Features](#features)
     -   [Installation](#installation)
     -   [Customization](#customization)
+      - [Own Colors and Opacity](#your-own-colors-and-opacity)
+      - [Show buttons](#a-button-you-need-doesnt-show-you-can-easily-add-them-again)
     -   [Usage](#usage)
     -   [Startpage](#startpage)
     -   [Ports](#ports)
@@ -59,7 +61,7 @@
 
 ##### Your own colors and opacity:
 
-In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#eaeaea`
+In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#186efd60`
 
 <p align="center">
   <img src="https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/code-1.png">
@@ -111,4 +113,6 @@ A Simple and Keyboard Centered userstyle for Windows!
 
 In addition to the `userChrome.css` and `userContent.css` files you'll also need the `dark_additional_windows.css`, `dark_checkboxes_and_radios.css` and `dark_context_menus.css` files in your **chrome** directory
 
-> NOTE: Transparency in Windows breakes the window behavior. You can change the colors in the variable section of the code and still add transparency, but the window manager will have some bugs with maximized firefox.
+> ### Transparency Note
+>
+> Transparency in Windows breakes the window behavior. You can change the colors in the variable section of the code and still add transparency, but the window manager will have some bugs with maximized firefox.
