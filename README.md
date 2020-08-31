@@ -4,6 +4,8 @@
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/head.png)
 
+### Index
+
 -   [SimplerentFox](#)
     -   [Features](#features)
     -   [Installation](#installation)
