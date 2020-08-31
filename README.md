@@ -4,6 +4,8 @@
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/head.png)
 
+### Index
+
 -   [SimplerentFox](#)
     -   [Features](#features)
     -   [Installation](#installation)
@@ -11,8 +13,6 @@
     -   [Usage](#usage)
     -   [Startpage](#startpage)
     -   [Ports](#ports)
-
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/head2.png)
 
 ### Features
 
