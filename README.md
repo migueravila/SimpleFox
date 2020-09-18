@@ -87,7 +87,8 @@ In this section you can comment adding `/* */` around the button you want to sho
 -   `Alt + Left Arrow` You can go Back
 -   `Alt + Right Arrow` You can go Forward
 -   `Ctrl + L` focuses the URLBar, which is very useful for quick searches and bookmarks usage
--   `Ctrl + B` shows you the Bookmarks / History Bar
+-   `Ctrl + B` shows you the Bookmarks 
+-   `Ctrl + H` shows you the History Bar
 -   `Ctrl + T` Opens a new Tab
 -   `Ctrl + W` Closes a Tab
 -   `Ctrl + Shift + T` Re-opens a tab that you just closed
