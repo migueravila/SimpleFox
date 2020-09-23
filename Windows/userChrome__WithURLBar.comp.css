@@ -34,7 +34,7 @@ Here you can change the main color of the browser. Also the color of the selecti
   you can still add transparency but the 
   window manager will have some bugs. 
   */
-  --srf-color-selection: #186efd60;
+  --srf-color-selection: #66A6D9;
   --srf-color-urlbar: rgba(20, 20, 20, 0.6);
 }
 /* 
