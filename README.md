@@ -10,8 +10,9 @@
     -   [Features](#features)
     -   [Installation](#installation)
     -   [Customization](#customization)
-      - [Own Colors and Opacity](#your-own-colors-and-opacity)
-      - [Show buttons](#a-button-you-need-doesnt-show-you-can-easily-add-them-again)
+         - [With URL Bar?](#two-versions)
+         - [Own Colors and Opacity](#your-own-colors-and-opacity)
+         - [Show buttons](#a-button-you-need-doesnt-show-you-can-easily-add-them-again)
     -   [Usage](#usage)
     -   [Startpage](#startpage)
     -   [Ports](#ports)
@@ -42,6 +43,8 @@
 -   You can choose between both files `userChrome__NoURLBar` and `userChrome__WithURLBar` . Don't forget to delete the rest of the text in the title and just have `userChrome`!
 -   You can check the sections in the `no-compressed` files and make the changes you want!
 -   You can use the `compressed` files if you want a simpler experience (They also have **variables** so you can change the colors)
+
+##### Two Versions
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/preview1.png)
 
@@ -84,7 +87,8 @@ In this section you can comment adding `/* */` around the button you want to sho
 -   `Alt + Left Arrow` You can go Back
 -   `Alt + Right Arrow` You can go Forward
 -   `Ctrl + L` focuses the URLBar, which is very useful for quick searches and bookmarks usage
--   `Ctrl + B` shows you the Bookmarks / History Bar
+-   `Ctrl + B` shows you the Bookmarks 
+-   `Ctrl + H` shows you the History Bar
 -   `Ctrl + T` Opens a new Tab
 -   `Ctrl + W` Closes a Tab
 -   `Ctrl + Shift + T` Re-opens a tab that you just closed
