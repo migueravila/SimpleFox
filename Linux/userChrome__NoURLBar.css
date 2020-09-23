@@ -24,11 +24,7 @@ Here you can change the opacity level and the main color of the browser. Also th
 
 :root {
     --srf-color-primary: rgba(20, 20, 20, 0.6);
-<<<<<<< HEAD
-    --srf-color-selection: #9DACDE60;
-=======
-    --srf-color-selection: #9DACDE60;
->>>>>>> 31525c0e44efea9f169adfb648c3e017329ce1ee
+    --srf-color-selection: #66A6D9;
 }
 
 /* 
