@@ -24,7 +24,7 @@ Here you can change the opacity level and the main color of the browser. Also th
 
 :root {
     --srf-color-primary: rgba(20, 20, 20, 0.6);
-    --srf-color-selection: #66A6D9;
+    --srf-color-selection: #66a6d9;
 }
 
 /* 
@@ -74,7 +74,8 @@ T A B S
     opacity: 0 !important;
 }
 
-.tabbrowser-tab::before, .tabbrowser-tab::after{
+.tabbrowser-tab::before,
+.tabbrowser-tab::after {
     opacity: 0 !important;
     border-left: none !important;
 }
@@ -95,34 +96,47 @@ Here you can comment if you want your buttons to be showed up!
 
 */
 
+/* This one is the forward button  */
 #forward-button {
     display: none !important;
 }
 
+/* This one is the back button  */
 #back-button {
     display: none !important;
 }
 
+/* This one is the spacer between tabs and border  */
 .titlebar-spacer {
     display: none !important;
 }
 
+/* This one is the "shield" icon  */
 #tracking-protection-icon-container {
     display: none !important;
 }
 
+/* This one is the hamburger menu!  */
 #PanelUI-button {
     display: none !important;
 }
 
+/* This one removes the close button  */
 .tabbrowser-tab:not([pinned]) .tab-close-button {
     display: none !important;
 }
 
-hbox.tab-content .tab-icon-image {
+/* This one clears the tabs icon when they're not pinned  */
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
     display: none !important;
 }
 
+/* Removing the zoom button  */
+#urlbar-zoom-button {
+    display: none !important;
+}
+
+/* Page action (right three dots button)  */
 #pageActionButton {
     display: none !important;
 }
@@ -166,11 +180,11 @@ S I D E - B A R
 }
 
 .sidebar-placesTree {
-    color: #EEE !important;
+    color: #eee !important;
 }
 
 #sidebar-switcher-target {
-    color: #EEE !important;
+    color: #eee !important;
 }
 
 #sidebar-header {
