@@ -230,7 +230,7 @@ U R L - B A R
 
 #urlbar-background {
     background: transparent !important;
-    border: none !important;
+    border: transparent !important;
     animation: none !important;
 }
 
