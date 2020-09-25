@@ -93,31 +93,48 @@ Here you can comment if you want your buttons to be showed up!
 
 */
 
+/* This one is the forward button  */
 #forward-button {
     display: none !important;
 }
 
+/* This one is the back button  */
 #back-button {
     display: none !important;
 }
 
+/* This one is the spacer between tabs and border  */
 .titlebar-spacer {
     display: none !important;
 }
 
+/* This one is the "shield" icon  */
 #tracking-protection-icon-container {
     display: none !important;
 }
 
+/* This one is the hamburger menu!  */
 #PanelUI-button {
     display: none !important;
 }
 
+/* This one removes the close button  */
 .tabbrowser-tab:not([pinned]) .tab-close-button {
     display: none !important;
 }
 
-hbox.tab-content .tab-icon-image {
+/* This one clears the tabs icon when they're not pinned  */
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
+    display: none !important;
+}
+
+/* Removing the zoom button  */
+#urlbar-zoom-button {
+    display: none !important;
+}
+
+/* Page action (right three dots button)  */
+#pageActionButton {
     display: none !important;
 }
 
@@ -205,8 +222,8 @@ U R L - B A R
 }
 
 #urlbar-background {
-    background: var(--srf-color-urlbar) !important;
-    border: none !important;
+    background: transparent !important;
+    border: transparent !important;
     animation: none !important;
 }
 
