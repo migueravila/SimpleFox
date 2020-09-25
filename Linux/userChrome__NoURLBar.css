@@ -123,6 +123,10 @@ hbox.tab-content .tab-icon-image {
     display: none !important;
 }
 
+#pageActionButton {
+    display: none !important;
+}
+
 /* 
 N A V B A R
 */
