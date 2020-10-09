@@ -2,10 +2,6 @@
 <h1>SimplerentFox: 🦊 Linux Version</h1>
 </div>
 
-<div align="center">
-<h1>SimplerentFox: 🦊 Windows Version</h1>
-</div>
-
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
 
 ### Installation
