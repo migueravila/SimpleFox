@@ -2,7 +2,7 @@
 <h1>SimplerentFox: 🦊 Linux Version</h1>
 </div>
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/preview1.png)
 
 ### Installation
 
