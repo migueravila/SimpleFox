@@ -3,7 +3,7 @@
 <b>🦊 Minimalist, Simple and Keyboard Centered</b>
 </div>
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/head.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithoutURLBar.png)
 
 ### Index
 
