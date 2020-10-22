@@ -11,7 +11,7 @@
     -   [Features](#features)
     -   [Installation](#installation)
     -   [Customization](#customization)
-         - [With URL Bar?](#three-versions)
+         - [All Versions](#three-versions)
          - [Own Colors and Opacity](#your-own-colors-and-opacity)
          - [Show buttons](#a-button-you-need-doesnt-show-you-can-easily-add-them-again)
     -   [Usage](#usage)
@@ -35,17 +35,19 @@
     - If you're on Linux: `$HOME/.mozilla/firefox/XXXXXXX.default-release/`
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
     - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX`
-5. Create a folder and name it **`chrome`** (with lowercase) and then paste the `userChrome.css` and `userContent.css` (There should be only one `userContent.css` ) files into it.
+5. Create a folder and name it **`chrome`** (with lowercase) and then paste the `userChrome.css` and `userContent.css` 
 6. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox/)
 7. E N J O Y 🦊
 
 ### Customization
 
--   You can choose between both files `userChrome__NoURLBar` and `userChrome__WithURLBar` . Don't forget to delete the rest of the text in the title and just have `userChrome`!
+-   You can choose between both files `userChrome__NoURLBar`, `userChrome__WithURLBar` and `userChrome__OneLine` . Don't forget to delete the rest of the text in the title and just have `userChrome`!
 -   You can check the sections in the `no-compressed` files and make the changes you want!
 -   You can use the `compressed` files if you want a simpler experience (They also have **variables** so you can change the colors)
 
 ##### Three Versions
+
+SimplerentFox has three central versions:
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithURLBar.png)
 
