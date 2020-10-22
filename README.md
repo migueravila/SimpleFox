@@ -1,5 +1,6 @@
 <div align="center">
-<h1>SimplerentFox: 🦊 Minimalist, Simple and Keyboard Centered</h1>
+<h1>SimplerentFox</h1>
+<b>🦊 Minimalist, Simple and Keyboard Centered</b>
 </div>
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/head.png)
