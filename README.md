@@ -51,13 +51,13 @@
 
 SimplerentFox has three central versions:
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithURLBar.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithoutURLBar.png)
 
 <div align="center">
 <h5>Without URL Bar</h5>
 </div>
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithoutURLBar.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithURLBar.png)
 
 <div align="center">
 <h5>With URL Bar</h5>
