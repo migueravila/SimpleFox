@@ -3,7 +3,7 @@
 <b>🦊 Linux Version</b>
 </div>
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/preview1.png)
 
 ### Installation
 
