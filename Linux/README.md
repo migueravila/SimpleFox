@@ -1,5 +1,6 @@
 <div align="center">
-<h1>SimplerentFox: 🦊 Linux Version</h1>
+<h1>SimplerentFox</h1>
+<b>🦊 Linux Version</b>
 </div>
 
 ![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
