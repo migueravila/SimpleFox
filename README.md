@@ -124,7 +124,7 @@ In the repo I have all the steps for you to use it!
 
 A Simple and Keyboard Centered userstyle for Windows!
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/win.png)
+![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Windows.png)
 
 In addition to the `userChrome.css` and `userContent.css` files you'll also need the `dark_additional_windows.css`, `dark_checkboxes_and_radios.css` and `dark_context_menus.css` files in your **chrome** directory
 
