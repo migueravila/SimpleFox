@@ -43,7 +43,7 @@
 
 ### Customization
 
--   You can choose between three files `userChrome__NoURLBar`, `userChrome__WithURLBar` and `userChrome__OneLine` . Don't forget to delete the rest of the text in the title and just have `userChrome`!
+-   You can choose between three files `userChrome__NoURLBar`, `userChrome__WithURLBar` and `userChrome__OneLine` . Don't forget to delete the rest of the text in the file name and just have `userChrome`!
 -   You can check the sections in the `no-compressed` files and make the changes you want!
 -   You can use the `compressed` files if you want a simpler experience (They also have **variables** so you can change the colors)
 
@@ -67,7 +67,6 @@ SimplerentFox has three central versions:
 
 <div align="center">
 <h5>One Line</h5>
-<b>(Testing)</b>
 </div>
 
 > ### Hiding "This time, search with" URL bar message
