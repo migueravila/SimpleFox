@@ -7,15 +7,19 @@
  |  ___|____  __   |_|                              
  | |_ / _ \ \/ /                                    
  |  _| (_) >  <                                     
- |_|  \___/_/\_\                             
-
+ |_|  \___/_/\_\                                       
+                                                    
+Windows Edition
 One Line Compressed Version
 
+Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+Patched by u/CommonSenseUsed or @jruaaa on github
+All Addons by u/It_Was_the_other_guy or @MrOtherGuy
 */
+@import url("dark_checkboxes_and_radios.css");
+@import url("dark_additional_windows.css");
+@import url("dark_context_menus.css");
 /* 
-V A R I A B L E S 
-Here you can change the opacity level and the main color of the browser. Also the color of the selections (When you select text)
-*/
 :root {
     --srf-color-primary: #141414;
     --srf-color-selection: #66A6D9;
