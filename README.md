@@ -77,17 +77,47 @@ SimplerentFox has three central versions:
 
 In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#186efd60`
 
-<p align="center">
-  <img src="https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/code-1.png">
-</p>
+```css
+/* 
+
+V A R I A B L E S 
+
+Here you can change the opacity level and the main color of the browser. 
+Also the color of the selections (When you select text)
+
+*/
+
+:root {
+    --srf-color-primary: rgba(20, 20, 20, 0.6);
+    --srf-color-selection: #66a6d9;
+}
+```
 
 ##### An element you need doesn't show? You can easily add them again
 
 In this section you can comment adding `/* */` around the button you want to show.
 
-<p align="center">
-  <img src="https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/code-2.png">
-</p>
+```css
+/* 
+
+B U T T O N S 
+
+Here you can comment if you want your buttons to be showed up!
+
+*/
+
+/* This one is the forward button  */
+#forward-button {
+    display: none !important;
+}
+
+/* This one is the back button  */
+#back-button {
+    display: none !important;
+}
+
+/* And many more... */
+```
 
 ### Usage
 
