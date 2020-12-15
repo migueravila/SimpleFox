@@ -261,6 +261,10 @@ U R L - B A R
   font-weight: 700 !important;
 }
 
+#urlbar-label-box, #urlbar-search-mode-indicator {
+  display: none !important;
+}
+
 /* 
 P A T C H E S
 */
