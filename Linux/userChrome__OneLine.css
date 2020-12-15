@@ -328,6 +328,10 @@ and erease the second block.
     display: none !important;
 }
 
+#urlbar-label-box, #urlbar-search-mode-indicator {
+    display: none !important;
+}
+
 /* 
 Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
 */

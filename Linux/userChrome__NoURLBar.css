@@ -258,7 +258,7 @@ U R L - B A R
 }
 
 #urlbar-label-box, #urlbar-search-mode-indicator {
-    display: none;
+    display: none !important;
 }
 
 /* 
