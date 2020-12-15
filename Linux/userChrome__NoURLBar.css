@@ -257,6 +257,10 @@ U R L - B A R
     font-weight: 700 !important;
 }
 
+#urlbar-label-box, #urlbar-search-mode-indicator {
+    display: none;
+}
+
 /* 
 Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
 */

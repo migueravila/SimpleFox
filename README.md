@@ -20,11 +20,10 @@
 
 ### Features
 
--   **Compressed** files
--   **As simple as you want**: Non-Compressed files for custom rules!
--   **Variables** for custom opacity and colors
+-   **As simple as you want**: All code is commented!
+-   **Variables** for custom opacity and colors: [Customization](#customization)
 -   Tab bar, URLBar and Sidebar **transparent**!
--   **Keyboard** Centered Design!
+-   **Keyboard** Centered Design! Here you can read about the shortcuts: [Usage](#usage)
 
 ### Installation
 
