@@ -3,7 +3,7 @@
 <b>🦊 Minimalist, Simple and Keyboard Centered</b>
 </div>
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithoutURLBar.png)
+![](Images/Header.png)
 
 ### Index
 
@@ -34,9 +34,9 @@
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
     - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX` 
 4. Create a folder and name it **`chrome`** (with lowercase).
-5. 5. You can choose between the three versions: **HideURLBar**, **WithURLBar** and **OneLine** (You can see them here: [Versions](#three-versions)) and them compressed files. once you choose your version  and rename the file you choose into `userChrome.css` 
-6. Then paste the `userChrome.css` and the `userContent.css` files into the folder
-7. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox/)
+5. You can choose between the three versions: **NoURLBar**, **WithURLBar** and **OneLine** (You can see them here: [Versions](#three-versions)). once you choose your version  and rename the file you choose into `userChrome.css`.
+6. Then paste the `userChrome.css` and the `userContent.css` files into the folder.
+7. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox)
 8. Enjoy!
 
 ### Customization
@@ -49,46 +49,23 @@
 
 SimplerentFox has three central versions:
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithoutURLBar.png)
+![](Images/SimplerentFoxVersions.png)
 
 <div align="center">
-<h5>Without URL Bar</h5>
+<h5>Without URL Bar | One Line | With URL Bar</h5>
 </div>
-
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/WithURLBar.png)
-
-<div align="center">
-<h5>With URL Bar</h5>
-</div>
-
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/OneLine.png)
-
-<div align="center">
-<h5>One Line</h5>
-</div>
-
-> ### Hiding "This time, search with" URL bar message
->
-> Hiding the message can give a more minimalistic URL bar. To hide the message additional search engines need to be removed, which can be done throught the _One-Click Search Engines_ option in the [Settings' Search tab](about:preferences#search).
 
 ##### Your own colors and opacity:
 
 In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#186efd60`
 
 ```css
-/* 
-
-V A R I A B L E S 
-
-Here you can change the opacity level and the main color of the browser. 
-Also the color of the selections (When you select text)
-
-*/
 
 :root {
     --srf-color-primary: rgba(20, 20, 20, 0.6);
     --srf-color-selection: #66a6d9;
 }
+
 ```
 
 ##### An element you need doesn't show? You can easily add them again
@@ -96,13 +73,6 @@ Also the color of the selections (When you select text)
 In this section you can comment adding `/* */` around the button you want to show.
 
 ```css
-/* 
-
-B U T T O N S 
-
-Here you can comment if you want your buttons to be showed up!
-
-*/
 
 /* This one is the forward button  */
 #forward-button {
@@ -115,6 +85,7 @@ Here you can comment if you want your buttons to be showed up!
 }
 
 /* And many more... */
+
 ```
 
 ### Usage
