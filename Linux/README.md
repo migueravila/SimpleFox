@@ -3,7 +3,7 @@
 <b>🦊 Linux Version</b>
 </div>
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/OneLine.png)
+![](../Images/Header.png)
 
 ### Installation
 

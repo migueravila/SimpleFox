@@ -3,7 +3,7 @@
 <b>🦊 Windows Version</b>
 </div>
 
-![](https://github.com/MiguelRAvila/SimplerentFox/blob/master/Images/Windows.png)
+![](../Images/Windows.png)
 
 ### Installation
 
