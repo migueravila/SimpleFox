@@ -34,7 +34,7 @@
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
     - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX` 
 4. Create a folder and name it **`chrome`** (with lowercase).
-5. 5. You can choose between the three versions: **NoURLBar**, **WithURLBar** and **OneLine** (You can see them here: [Versions](#three-versions)) and them compressed files. once you choose your version  and rename the file you choose into `userChrome.css` 
+5. 5. You can choose between the three versions: **HideURLBar**, **WithURLBar** and **OneLine** (You can see them here: [Versions](#three-versions)) and them compressed files. once you choose your version  and rename the file you choose into `userChrome.css` 
 6. Then paste the `userChrome.css` and the `userContent.css` files into the folder
 7. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplere
 8. Enjoy!
