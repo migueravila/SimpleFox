@@ -34,14 +34,14 @@
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
     - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX` 
 4. Create a folder and name it **`chrome`** (with lowercase).
-5. You can choose between the three versions: **NoURLBar**, **WithURLBar** and **OneLine** (You can see them here: [Versions](#three-versions)). Once you choose your version  and rename the file you choose into `userChrome.css`.
+5. You can choose between the three versions: **HideURLBar**, **WithURLBar** and **OneLine** (You can see them here: [Versions](#three-versions)). Once you choose your version  and rename the file you choose into `userChrome.css`.
 6. Then paste the `userChrome.css` and the `userContent.css` files into the folder.
 7. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox)
 8. Enjoy!
 
 ### Customization
 
--   You can choose between three files `userChrome__NoURLBar`, `userChrome__WithURLBar` and `userChrome__OneLine` . Don't forget to delete the rest of the text in the file name and just have `userChrome`!
+-   You can choose between three files `userChrome__HideURLBar`, `userChrome__WithURLBar` and `userChrome__OneLine` . Don't forget to delete the rest of the text in the file name and just have `userChrome`!
 -   You can check the sections (all of them are commented) and make the changes you want!
 -   You can use the variables at the beggining of the file to change the colors!
 
@@ -52,7 +52,7 @@ SimplerentFox has three central versions:
 ![](Images/SimplerentFoxVersions.png)
 
 <div align="center">
-<h5>Without URL Bar | One Line | With URL Bar</h5>
+<h5>Hide URL Bar | One Line | With URL Bar</h5>
 </div>
 
 ##### Your own colors and opacity:
