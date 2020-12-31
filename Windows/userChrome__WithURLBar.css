@@ -1,24 +1,24 @@
 /* 
-  ____  _                 _                     _   
- / ___|(_)_ __ ___  _ __ | | ___ _ __ ___ _ __ | |_ 
- \___ \| | '_ ` _ \| '_ \| |/ _ \ '__/ _ \ '_ \| __|
-  ___) | | | | | | | |_) | |  __/ | |  __/ | | | |_ 
- |____/|_|_| |_| |_| .__/|_|\___|_|  \___|_| |_|\__|
- |  ___|____  __   |_|                              
- | |_ / _ \ \/ /                                    
- |  _| (_) >  <                                     
- |_|  \___/_/\_\                                        
-                                                    
-Windows Edition
-With URL Bar Version
+  ___ _            _                 _   
+ / __(_)_ __  _ __| |___ _ _ ___ _ _| |_ 
+ \__ \ | '  \| '_ \ / -_) '_/ -_) ' \  _|
+ |___/_|_|_|_| .__/_\___|_| \___|_||_\__|
+ | __|____ __|_|                         
+ | _/ _ \ \ /                            
+ |_|\___/_\_\                            
+                                         
+ With URL Bar Version
 
-Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
-Patched by u/CommonSenseUsed or @jruaaa on github
-All Addons by u/It_Was_the_other_guy or @MrOtherGuy
+ Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+ Patched by u/CommonSenseUsed or @jruaaa on github
+ All Addons by u/It_Was_the_other_guy or @MrOtherGuy
+
 */
+
 @import url("dark_checkboxes_and_radios.css");
 @import url("dark_additional_windows.css");
 @import url("dark_context_menus.css");
+
 /* 
 
 V A R I A B L E S 
