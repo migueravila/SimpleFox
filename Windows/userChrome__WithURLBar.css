@@ -234,7 +234,7 @@ U R L - B A R
 
 #urlbar-background {
   background: var(--srf-color-urlbar) !important;
-  border: transparent !important;
+  border: var(--srf-color-urlbar) !important;
   animation: none !important;
 }
 
