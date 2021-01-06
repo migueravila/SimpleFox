@@ -19,4 +19,4 @@
 
 ### Linux considerations
 
-Firefox uses the GTK3 theme you have to design the menus and the colors. The theme in the screenshots will not look like yours. It can also be useful if you don't want to change a lot of code in the URL-Bar or menus.
+Firefox uses the GTK3 theme you have to design the menus and the colors. The theme in the screenshots will not look like yours. It can also be useful if you don't want to change a lot of code in the URL-Bar or menus. You can find a lot of GTK themes [here](https://www.pling.com/browse/cat/135/order/latest/)
