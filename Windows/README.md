@@ -17,6 +17,6 @@
  
 > E N J O Y 🦊
 
-> ### Transparency Note
->
-> Transparency in Windows breakes the window behavior. You can change the colors in the variable section of the code and still add transparency, but the window manager will have some bugs with maximized firefox.
+### Windows considerations
+
+Transparency in Windows breakes the window behavior. You can change the colors in the variable section of the code and still add transparency, but the window manager will have some bugs with maximized firefox.
