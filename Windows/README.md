@@ -5,7 +5,7 @@
 
 ![](../Images/Windows.png)
 
-### Installation
+## Installation
 
 1. In the searchbar type `about:config`. A dialog will be shown to you. Press the **I accept the risk**button.
 2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`**, **`layers.acceleration.force-enabled`**, **`gfx.webrender.all`**, and **`svg.context-properties.content.enabled`**. Change them to **True**
