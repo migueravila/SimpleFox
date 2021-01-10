@@ -5,7 +5,7 @@
 
 ![](Images/Header.png)
 
-### Index
+## Index
 
 -   [SimplerentFox](#)
     -   [Features](#features)
@@ -18,14 +18,14 @@
     -   [Startpage](#startpage)
     -   [Ports](#ports)
 
-### Features
+## Features
 
 -   **As simple as you want**: All code is commented!
 -   **Variables** for custom opacity and colors: [Customization](#customization)
 -   Tab bar, URLBar and Sidebar **transparent**!
 -   **Keyboard** Centered Design! Here you can read about the shortcuts: [Usage](#usage)
 
-### Installation
+## Installation
 
 1. In the searchbar type `about:config`. A dialog will be shown to you. Press the **I accept the risk** button.
 2. Search for **`toolkit.legacyUserProfileCustomizations.stylesheets`**, **`layers.acceleration.force-enabled`**, **`gfx.webrender.all`**, and **`svg.context-properties.content.enabled`**. Change them to **True**
@@ -39,13 +39,13 @@
 7. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox)
 8. Enjoy!
 
-### Customization
+## Customization
 
 -   You can choose between three files `userChrome__HideURLBar`, `userChrome__WithURLBar` and `userChrome__OneLine` . Don't forget to delete the rest of the text in the file name and just have `userChrome`!
 -   You can check the sections (all of them are commented) and make the changes you want!
 -   You can use the variables at the beggining of the file to change the colors!
 
-##### Three Versions
+### Three Versions
 
 SimplerentFox has three central versions:
 
@@ -55,7 +55,7 @@ SimplerentFox has three central versions:
 <h5>Hide URL Bar | One Line | With URL Bar</h5>
 </div>
 
-##### Your own colors and opacity:
+### Your own colors and opacity:
 
 In this section of the code you can change the colors, it's in RGBA so you can easily change the opacity and accent color, by default it's `#186efd60`
 
@@ -68,7 +68,7 @@ In this section of the code you can change the colors, it's in RGBA so you can e
 
 ```
 
-##### An element you need doesn't show? You can easily add them again
+### An element you need doesn't show? You can easily add them again
 
 In this section you can comment adding `/* */` around the button you want to show.
 
@@ -88,7 +88,7 @@ In this section you can comment adding `/* */` around the button you want to sho
 
 ```
 
-### Usage
+## Usage
 
 > This userstyle was made for a keyboard centered usage, like Tilling Window Manager users or just cool people that loves them! 🤖
 > In this section I show you some cool shortcuts you can use with this theme for a better experience
@@ -105,7 +105,7 @@ In this section you can comment adding `/* */` around the button you want to sho
 -   `Ctrl + R` Refresh the page you're on
 -   `Ctrl + Shift + A` Quick open for Add-Ons
 
-### Startpage
+## Startpage
 
 If anyone has the doubt, in almost all of the screenshots you can see a Startpage made for it. It's called [Bento 🍱](https://github.com/MiguelRAvila/Bento) and It's another project I made. It fits with the Firefox theme because It's done with the same principles: Minimalist, Simple and Elegant.
 
@@ -115,11 +115,11 @@ If anyone has the doubt, in almost all of the screenshots you can see a Startpag
 
 In the repo I have all the steps for you to use it!
 
-### Ports
+## Ports
 
 > This userstyle was made in Linux and looking for a simple and clean look for the Firefox Web browser and ports to other OS are on mind.
 
-##### Windows port
+### Windows port
 
 A Simple and Keyboard Centered userstyle for Windows!
 
