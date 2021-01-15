@@ -15,9 +15,9 @@
 
 */
 
-@import url("dark_checkboxes_and_radios.css");
-@import url("dark_additional_windows.css");
-@import url("dark_context_menus.css");
+@import url('dark_checkboxes_and_radios.css');
+@import url('dark_additional_windows.css');
+@import url('dark_context_menus.css');
 
 /* 
 
@@ -34,7 +34,7 @@ Here you can change the main color of the browser. Also the color of the selecti
   you can still add transparency but the 
   window manager will have some bugs. 
   */
-  --srf-color-selection: #66A6D9;
+  --srf-color-selection: #66a6d9;
   --srf-color-urlbar: rgba(20, 20, 20, 0.6);
 }
 
@@ -73,7 +73,7 @@ T A B S
   border: none !important;
 }
 
-.tab-background[selected="true"] {
+.tab-background[selected='true'] {
   -moz-appearance: none !important;
   background-image: none !important;
 }
@@ -82,7 +82,8 @@ T A B S
   opacity: 0 !important;
 }
 
-.tabbrowser-tab::before, .tabbrowser-tab::after{
+.tabbrowser-tab::before,
+.tabbrowser-tab::after {
   opacity: 0 !important;
   border-left: none !important;
 }
@@ -134,7 +135,7 @@ Here you can comment if you want your buttons to be showed up!
 }
 
 /* This one clears the tabs icon when they're not pinned  */
-.tabbrowser-tab:not([pinned]) .tab-icon-image  {
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
   display: none !important;
 }
 
@@ -192,11 +193,11 @@ S I D E - B A R
 }
 
 .sidebar-placesTree {
-  color: #EEE !important;
+  color: #eee !important;
 }
 
 #sidebar-switcher-target {
-  color: #EEE !important;
+  color: #eee !important;
 }
 
 #sidebar-header {
@@ -251,7 +252,7 @@ U R L - B A R
   color: #fff !important;
 }
 
-.megabar[open="true"] > #urlbar-background {
+.megabar[open='true'] > #urlbar-background {
   background: #fff !important;
 }
 
@@ -268,7 +269,8 @@ U R L - B A R
   padding-inline-start: 4px !important;
 }
 
-#urlbar-label-box, #urlbar-search-mode-indicator {
+#urlbar-label-box,
+#urlbar-search-mode-indicator {
   display: none !important;
 }
 
@@ -276,20 +278,20 @@ U R L - B A R
 P A T C H E S
 */
 
-#tabbrowser-tabpanels{
-  background-color: var(0,0,0) !important;
+#tabbrowser-tabpanels {
+  background-color: var(0, 0, 0) !important;
 }
 
-#statuspanel-label:-moz-lwtheme-brighttext{
-  background-color: rgb(50,50,52) !important;
-  color: rgb(187,187,189) !important;
+#statuspanel-label:-moz-lwtheme-brighttext {
+  background-color: rgb(50, 50, 52) !important;
+  color: rgb(187, 187, 189) !important;
   border-color: grey !important;
 }
 
 .panel-subview-body,
 #permList,
-scrollbar{
- color: inherit;
- scrollbar-color: currentColor transparent;
- scrollbar-width: thin 
+scrollbar {
+  color: inherit;
+  scrollbar-color: currentColor transparent;
+  scrollbar-width: thin;
 }

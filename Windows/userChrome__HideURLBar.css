@@ -15,9 +15,9 @@ All Addons by u/It_Was_the_other_guy or @MrOtherGuy
 
 */
 
-@import url("dark_checkboxes_and_radios.css");
-@import url("dark_additional_windows.css");
-@import url("dark_context_menus.css");
+@import url('dark_checkboxes_and_radios.css');
+@import url('dark_additional_windows.css');
+@import url('dark_context_menus.css');
 
 /* 
 
@@ -34,7 +34,7 @@ Here you can change the opacity level and the main color of the browser. Also th
   you can still add transparency but the 
   window manager will have some bugs. 
   */
-  --srf-color-selection: #66A6D9;
+  --srf-color-selection: #66a6d9;
 }
 
 /* 
@@ -74,7 +74,7 @@ T A B S
   border: none !important;
 }
 
-.tab-background[selected="true"] {
+.tab-background[selected='true'] {
   -moz-appearance: none !important;
   background-image: none !important;
 }
@@ -84,7 +84,8 @@ T A B S
   opacity: 0 !important;
 }
 
-.tabbrowser-tab::before, .tabbrowser-tab::after{
+.tabbrowser-tab::before,
+.tabbrowser-tab::after {
   opacity: 0 !important;
   border-left: none !important;
 }
@@ -136,7 +137,7 @@ Here you can comment if you want your buttons to be showed up!
 }
 
 /* This one clears the tabs icon when they're not pinned  */
-.tabbrowser-tab:not([pinned]) .tab-icon-image  {
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
   display: none !important;
 }
 
@@ -189,11 +190,11 @@ S I D E - B A R
 }
 
 .sidebar-placesTree {
-  color: #EEE !important;
+  color: #eee !important;
 }
 
 #sidebar-switcher-target {
-  color: #EEE !important;
+  color: #eee !important;
 }
 
 #sidebar-header {
@@ -219,7 +220,8 @@ U R L - B A R
   ) !important;
 }
 
-@-moz-document url(chrome://browser/content/browser.xhtml) {
+@-moz-document url(chrome://browser/content/browser.xhtml)
+{
   #urlbar[breakout][breakout-extend] > #urlbar-background {
     animation-name: none !important;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05) !important;
@@ -261,7 +263,8 @@ U R L - B A R
   font-weight: 700 !important;
 }
 
-#urlbar-label-box, #urlbar-search-mode-indicator {
+#urlbar-label-box,
+#urlbar-search-mode-indicator {
   display: none !important;
 }
 
@@ -269,20 +272,20 @@ U R L - B A R
 P A T C H E S
 */
 
-#tabbrowser-tabpanels{
-  background-color: var(0,0,0) !important;
+#tabbrowser-tabpanels {
+  background-color: var(0, 0, 0) !important;
 }
 
-#statuspanel-label:-moz-lwtheme-brighttext{
-  background-color: rgb(50,50,52) !important;
-  color: rgb(187,187,189) !important;
+#statuspanel-label:-moz-lwtheme-brighttext {
+  background-color: rgb(50, 50, 52) !important;
+  color: rgb(187, 187, 189) !important;
   border-color: grey !important;
 }
 
 .panel-subview-body,
 #permList,
-scrollbar{
- color: inherit;
- scrollbar-color: currentColor transparent;
- scrollbar-width: thin 
+scrollbar {
+  color: inherit;
+  scrollbar-color: currentColor transparent;
+  scrollbar-width: thin;
 }
