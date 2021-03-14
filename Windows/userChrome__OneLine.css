@@ -28,6 +28,7 @@ Here you can change the opacity level and the main color of the browser. Also th
 */
 
 :root {
+  --urlbar-width:25vw;
   --srf-color-primary: #141414;
   /* 
   WARNING: Transparency breakes the window behavior, 
@@ -78,7 +79,7 @@ T A B S
 #TabsToolbar {
   margin-top: -1px !important;
   margin-bottom: 1px !important;
-  margin-left: 25vw !important;
+  margin-left: var(--urlbar-width) !important;
   max-height: 32px !important;
 }
 
@@ -191,7 +192,7 @@ N A V B A R
   border-bottom-width: 0px !important;
   margin-top: -32px !important;
   margin-bottom: -1px !important;
-  margin-right: 75vw !important;
+  margin-right: calc(100vw - var(--urlbar-width)) !important;
   height: 32px !important;
 }
 
