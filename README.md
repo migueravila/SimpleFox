@@ -90,7 +90,7 @@ In this section you can comment adding `/* */` around the button you want to sho
 
 ## Usage
 
-> This userstyle was made for a keyboard centered usage, like Tilling Window Manager users or just cool people that loves them! 🤖
+> This userstyle was made for a keyboard centered usage, like Tilling Window Manager users or just cool people that love them! 🤖
 > In this section I show you some cool shortcuts you can use with this theme for a better experience
 
 -   `Alt` You can access to the global menu for an extended options you need
