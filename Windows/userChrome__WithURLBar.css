@@ -1,27 +1,24 @@
 /* 
+  ___ _            _                 _   
+ / __(_)_ __  _ __| |___ _ _ ___ _ _| |_ 
+ \__ \ | '  \| '_ \ / -_) '_/ -_) ' \  _|
+ |___/_|_|_|_| .__/_\___|_| \___|_||_\__|
+ | __|____ __|_|                         
+ | _/ _ \ \ /                            
+ |_|\___/_\_\                            
+                                         
+ With URL Bar Version
 
-_____ _                 _                     _    
-/ ____(_)               | |                   | |   
-| (___  _ _ __ ___  _ __ | | ___ _ __ ___ _ __ | |_  
-\___ \| | '_ ` _ \| '_ \| |/ _ \ '__/ _ \ '_ \| __| 
-____) | | | | | | | |_) | |  __/ | |  __/ | | | |_  
-|_____/|_|_| |_| |_| .__/|_|\___|_|  \___|_| |_|\__| 
-|  ____|           | |                               
-| |__ _____  __    |_|                               
-|  __/ _ \ \/ /                                      
-| | | (_) >  <                                       
-|_|  \___/_/\_\                                      
-                                                    
-Windows Edition
-With URL Bar Version
+ Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
+ Patched by u/CommonSenseUsed or @jruaaa on github
+ All Addons by u/It_Was_the_other_guy or @MrOtherGuy
 
-Designed and Coded by Miguel R. Ávila: https://github.com/MiguelRAvila
-Patched by u/CommonSenseUsed or @jruaaa on github
-All Addons by u/It_Was_the_other_guy or @MrOtherGuy
 */
-@import url("dark_checkboxes_and_radios.css");
-@import url("dark_additional_windows.css");
-@import url("dark_context_menus.css");
+
+@import url('dark_checkboxes_and_radios.css');
+@import url('dark_additional_windows.css');
+@import url('dark_context_menus.css');
+
 /* 
 
 V A R I A B L E S 
@@ -37,8 +34,8 @@ Here you can change the main color of the browser. Also the color of the selecti
   you can still add transparency but the 
   window manager will have some bugs. 
   */
-  --srf-color-selection: #bebebe;
-  --srf-color-urlbar: rgba(20, 20, 20, 0.6);
+  --srf-color-selection: #b61827;
+  --srf-color-urlbar: rgba(20, 20, 20, 1);
 }
 
 /* 
@@ -76,7 +73,7 @@ T A B S
   border: none !important;
 }
 
-.tab-background[selected="true"] {
+.tab-background[selected='true'] {
   -moz-appearance: none !important;
   background-image: none !important;
 }
@@ -85,11 +82,7 @@ T A B S
   opacity: 0 !important;
 }
 
-.tabbrowser-tab::before {
-  opacity: 0 !important;
-  border-left: none !important;
-}
-
+.tabbrowser-tab::before,
 .tabbrowser-tab::after {
   opacity: 0 !important;
   border-left: none !important;
@@ -97,6 +90,10 @@ T A B S
 
 .titlebar-placeholder {
   border: none !important;
+}
+
+.tab-line {
+  display: none !important;
 }
 
 /* 
@@ -107,28 +104,49 @@ Here you can comment if you want your buttons to be showed up!
 
 */
 
+/* This one is the forward button  */
 #forward-button {
   display: none !important;
 }
 
+/* This one is the back button  */
 #back-button {
   display: none !important;
 }
 
+/* This one is the spacer between tabs and border  */
 .titlebar-spacer {
   display: none !important;
 }
 
+/* This one is the "shield" icon  */
 #tracking-protection-icon-container {
   display: none !important;
 }
 
+/* This one is the hamburger menu!  */
 #PanelUI-button {
+  display: true !important;
+}
+
+/* This one removes the close button  */
+.tabbrowser-tab:not([pinned]) .tab-close-button {
   display: none !important;
 }
 
-.tabbrowser-tab:not([pinned]) .tab-close-button { 
-  display:none !important; 
+/* This one clears the tabs icon when they're not pinned  */
+.tabbrowser-tab:not([pinned]) .tab-icon-image {
+  display: none !important;
+}
+
+/* Removing the zoom button  */
+#urlbar-zoom-button {
+  display: none !important;
+}
+
+/* Page action (right three dots button)  */
+#pageActionButton {
+  display: none !important;
 }
 
 /* 
@@ -175,11 +193,11 @@ S I D E - B A R
 }
 
 .sidebar-placesTree {
-  color: var(--srf-color-selection) !important;
+  color: #eee !important;
 }
 
 #sidebar-switcher-target {
-  color: var(--srf-color-selection) !important;
+  color: #eee !important;
 }
 
 #sidebar-header {
@@ -217,7 +235,7 @@ U R L - B A R
 
 #urlbar-background {
   background: var(--srf-color-urlbar) !important;
-  border: none !important;
+  border: var(--srf-color-urlbar) !important;
   animation: none !important;
 }
 
@@ -234,7 +252,7 @@ U R L - B A R
   color: #fff !important;
 }
 
-.megabar[open="true"] > #urlbar-background {
+.megabar[open='true'] > #urlbar-background {
   background: #fff !important;
 }
 
@@ -251,24 +269,37 @@ U R L - B A R
   padding-inline-start: 4px !important;
 }
 
+#urlbar-label-box,
+#urlbar-search-mode-indicator {
+  display: none !important;
+}
+
+/*
+I N F O B A R (as mentioned here: https://preview.redd.it/tvo0zcsjdg471.png?width=646&format=png&auto=webp&s=98bbe529d0dbbfa9505893abe375fec61bebcfb9)
+*/
+
+.container.infobar {
+  background: var(--srf-color-primary) !important;
+}
+
 /* 
 P A T C H E S
 */
 
-#tabbrowser-tabpanels{
-  background-color: var(0,0,0) !important;
+#tabbrowser-tabpanels {
+  background-color: var(0, 0, 0) !important;
 }
 
-#statuspanel-label:-moz-lwtheme-brighttext{
-  background-color: rgb(50,50,52) !important;
-  color: rgb(187,187,189) !important;
+#statuspanel-label:-moz-lwtheme-brighttext {
+  background-color: rgb(50, 50, 52) !important;
+  color: rgb(187, 187, 189) !important;
   border-color: grey !important;
 }
 
 .panel-subview-body,
 #permList,
-scrollbar{
- color: inherit;
- scrollbar-color: currentColor transparent;
- scrollbar-width: thin 
+scrollbar {
+  color: inherit;
+  scrollbar-color: currentColor transparent;
+  scrollbar-width: thin;
 }

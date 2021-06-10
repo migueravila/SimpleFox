@@ -7,7 +7,13 @@ See the above repository for updates as well as full license text. */
 
 /* In short, these native widgets will be dark on dark theme and light on light theme */
 
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/* noted issues when modifying above, some buttons look weird */
+
+@namespace url('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul');
+
+:root {
+  --srf-color-selection: #b61827;
+}
 
 #editBMPanel_tagsSelector > richlistitem > image,
 radio > .radio-check,
@@ -21,7 +27,7 @@ checkbox > .checkbox-check{
 }
 
 #editBMPanel_tagsSelector > richlistitem > image{
-  background-color: var(--toolbar-bgcolor,rgb(50,50,52)) !important;
+  background-color: var(--toolbar-bgcolor,rgb(20,20,20)) !important;
   margin: 1px !important;
   border-color: graytext !important;
   border-radius: 2px !important;
@@ -67,5 +73,5 @@ button.searchbar-engine-one-off-item,
 
 button.panel-button{ padding: 2px 2px 1px 2px !important; }
 
-#customization-done-button{ background-color: #0a84ff !important; }
-#customization-done-button:hover{ background-color: #0a64df !important; }
+#customization-done-button{ background-color: var(--srf-color-selection) !important; }
+#customization-done-button:hover{ background-color: var(--srf-color-selection) !important; }
