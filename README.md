@@ -1,9 +1,10 @@
-<div align="center">
-<h1>SimplerentFox</h1>
-<b>🦊 Minimalist, Simple and Keyboard Centered</b>
-</div>
+![](assets/head.png)
 
-![](Images/Header.png)
+<p style="margin: -20px 0 30px">
+  <a href="https://www.buymeacoffee.com/migueravila" target="_blank" style='margin-right:0px; margin-top:5px'>
+    <img align="center" src="https://github.com/migueravila/Simplerentfox/blob/master/assets/donation.png" alt="linkedin" height="35px" />
+  </a>
+</p>
 
 ## Index
 
