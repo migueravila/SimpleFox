@@ -54,6 +54,7 @@ by Miguel Avila
   --toolbar-bgcolor: var(--sfsecondary) !important;
   --tabs-border-color: var(--sfsecondary) !important;
   --lwt-sidebar-background-color: var(--sfbackground) !important;
+  --lwt-toolbar-field-focus: var(--sfsecondary) !important;
 }
 
 /* Sidebar color  */
@@ -80,6 +81,10 @@ by Miguel Avila
 
 .tabbrowser-tab:not([pinned]) .tab-icon-image {
   display: none !important;
+}
+
+#nav-bar:not([tabs-hidden="true"]) {
+  box-shadow: none;
 }
 
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
@@ -127,6 +132,10 @@ by Miguel Avila
   box-shadow: none !important;
 }
 
+#navigator-toolbox {
+  border: none !important;
+}
+
 /* Bookmarks bar  */
 .bookmark-item .toolbarbutton-icon {
   display: none;
@@ -140,7 +149,13 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #urlbar-zoom-button,
 #star-button-box,
 #pageActionButton,
-#pageActionSeparator {
+#pageActionSeparator,
+#tabs-newtab-button,
+.tab-secondary-label,
+.urlbarView,
+#back-button,
+#PanelUI-button,
+#forward-button {
   display: none;
 }
 
@@ -160,13 +175,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #context-sendlinktodevice,
 #context-searchselect,
 #context-sendimage,
-#context-print-selection,
-#tabs-newtab-button,
-.tab-secondary-label,
-.urlbarView,
-#back-button,
-#PanelUI-button,
-#forward-button {
+#context-print-selection {
   display: none !important;
 }
 
@@ -177,23 +186,4 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 	#context_selectAllTabs,
 	#context_closeTabOptions /* "Close multiple tabs" */ {
   display: none !important;
-}
-
-/* 
-
-┌┬┐┬┌┐┌┬┌┬┐┌─┐┬  
-│││││││││││├─┤│  
-┴ ┴┴┘└┘┴┴ ┴┴ ┴┴─┘
-┌─┐┬─┐ ┬         
-├┤ │┌┴┬┘         
-└  ┴┴ └─
-
-*/
-
-#nav-bar:not([tabs-hidden="true"]) {
-  box-shadow: none;
-}
-
-#navigator-toolbox {
-  border: none !important;
 }
