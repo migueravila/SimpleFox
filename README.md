@@ -16,14 +16,14 @@
 - [🚀 Usage](#-usage)
 - [🎨 Customization](#-customization)
   - [💛 Colors](#-colors)
-- [🍱 Startpage](#-startpage)
+  - [🍱 Startpage](#-startpage)
 
 ## 💫 Features
 
 -   Supports Firefox **Proton UI** 
 -   **As simple as you want**: All code is commented!
--   **Variables** for custom colors: [Customization](#customization)
--   **Keyboard** Centered Design! Here you can read about the shortcuts: [Usage](#usage)
+-   **Variables** for custom colors: [Customization](#-customization)
+-   **Keyboard** Centered Design! Here you can read about the shortcuts: [usage](#-usage)
 
 ## ⚙️ Installation
 
@@ -44,7 +44,7 @@ This userstyle was made for a keyboard centered usage, like Tilling Window Manag
 -   `Alt` You can access to the global menu for an extended options you need
 -   `Alt + Left Arrow` You can go Back
 -   `Alt + Right Arrow` You can go Forward
--   `Ctrl + L` focuses the URLBar, which is very useful for quick searches and bookmarks usage
+-   `Ctrl + L` focuses the Navbar
 -   `Ctrl + B` shows you the Bookmarks 
 -   `Ctrl + H` shows you the History Bar
 -   `Ctrl + T` Opens a new Tab
@@ -69,8 +69,7 @@ In this section of the code you can change the colors, there's a window color an
 }
 
 ```
-
-## 🍱 Startpage
+### 🍱 Startpage
 
 If anyone has the doubt, in almost all of the screenshots you can see a Startpage made for it. It's called [Bento 🍱](https://github.com/MiguelRAvila/Bento) and It's another project I made. It fits with the Firefox theme because It's done with the same principles: Minimalist, Simple and Elegant.
 
