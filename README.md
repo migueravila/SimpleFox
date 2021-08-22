@@ -33,11 +33,9 @@
     - If you're on Linux: `$HOME/.mozilla/firefox/XXXXXXX.default-release/`
     - If you're on Windows: `C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX`
     - If you're on MacOS: `Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX` 
-4. Create a folder and name it **`chrome`** (with lowercase).
-5. You can choose between the three versions: **HideURLBar**, **WithURLBar** and **OneLine** (You can see them here: [Versions](#three-versions)). Once you choose your version  and rename the file you choose into `userChrome.css`.
-6. Then paste the `userChrome.css` and the `userContent.css` files into the folder.
-7. (Optional) If you don't know if use a theme or not, you can use the Add-on theme I made for a better experience: [Add-on Theme](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox)
-8. Enjoy!
+4. Move the `chrome` folder into the directory.
+5. Make all the customizations you want [here](#-customization).
+6. Enjoy!
 
 ## 🚀 Usage
 
@@ -77,5 +75,3 @@ In this section of the code you can change the colors, there's a window color an
 If anyone has the doubt, in almost all of the screenshots you can see a Startpage made for it. It's called [Bento 🍱](https://github.com/MiguelRAvila/Bento) and It's another project I made. It fits with the Firefox theme because It's done with the same principles: Minimalist, Simple and Elegant.
 
 ![bento](https://github.com/migueravila/Bento/blob/master/assets/img/subheader.png)
-
-In the repo I have all the steps for you to use it!
