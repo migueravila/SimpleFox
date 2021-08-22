@@ -19,7 +19,7 @@ by Miguel Avila
 */
 
 :root {
-  --sfbackground: #19171a;
+  --sfwindow: #19171a;
   --sfsecondary: #201e21;
 }
 
@@ -46,21 +46,21 @@ by Miguel Avila
 
 /* Inactive tabs color */
 #navigator-toolbox {
-  background-color: var(--sfbackground) !important;
+  background-color: var(--sfwindow) !important;
 }
 
 /* Window colors  */
 :root {
   --toolbar-bgcolor: var(--sfsecondary) !important;
   --tabs-border-color: var(--sfsecondary) !important;
-  --lwt-sidebar-background-color: var(--sfbackground) !important;
+  --lwt-sidebar-background-color: var(--sfwindow) !important;
   --lwt-toolbar-field-focus: var(--sfsecondary) !important;
 }
 
 /* Sidebar color  */
 #sidebar-box,
 .sidebar-placesTree {
-  background-color: var(--sfbackground) !important;
+  background-color: var(--sfwindow) !important;
 }
 
 /* 
@@ -152,11 +152,20 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #pageActionSeparator,
 #tabs-newtab-button,
 .tab-secondary-label,
-.urlbarView,
 #back-button,
 #PanelUI-button,
 #forward-button {
-  display: none;
+  display: none !important;
+}
+
+/* Urlbar View */
+
+.urlbarView {
+  display: none !important;
+} 
+
+.urlbarView-url {
+  color: #dedede !important;
 }
 
 /* Disable elements  */
