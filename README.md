@@ -16,6 +16,7 @@
 - [🚀 Usage](#-usage)
 - [🎨 Customization](#-customization)
   - [💛 Colors](#-colors)
+  - [🚧 URL Bar](#-url-bar)
   - [🍱 Startpage](#-startpage)
 
 ## 💫 Features
@@ -68,7 +69,29 @@ In this section of the code you can change the colors, there's a window color an
   --sfsecondary: #201e21;
 }
 
+
 ```
+
+### 🚧 URL Bar
+
+![urlbardifference](assets/urlbar.png)
+
+You can show and hide the URL Bar (See the difference above) by commenting / uncomment the following section of code:
+
+```css
+/*─────────────────────────────*/
+/* Comment this section if you */
+/* want to show the URL Bar    */
+/*─────────────────────────────*/
+
+.urlbarView {
+  display: none !important;
+}
+
+/*─────────────────────────────*/
+
+```
+
 ### 🍱 Startpage
 
 If anyone has the doubt, in almost all of the screenshots you can see a Startpage made for it. It's called [Bento 🍱](https://github.com/MiguelRAvila/Bento) and It's another project I made. It fits with the Firefox theme because It's done with the same principles: Minimalist, Simple and Elegant.
