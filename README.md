@@ -101,4 +101,4 @@ If anyone has the doubt, in almost all of the screenshots you can see a Startpag
 
 ## ⚠️ Warning note
 
-As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch. Also there's pending the **OneLine** version.
+As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch. Also it's pending the **OneLine** version.
