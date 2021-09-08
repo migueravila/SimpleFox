@@ -18,13 +18,14 @@
   - [💛 Colors](#-colors)
   - [🚧 URL Bar](#-url-bar)
   - [🍱 Startpage](#-startpage)
+- [⚠️ Warning note](#️-warning-note)
 
 ## 💫 Features
 
 -   Supports Firefox **Proton UI** 
 -   **As simple as you want**: All code is commented!
 -   **Variables** for custom colors: [Customization](#-customization)
--   **Keyboard** Centered Design! Here you can read about the shortcuts: [usage](#-usage)
+-   **Keyboard** Centered Design! Here you can read about the shortcuts: [Usage](#-usage)
 
 ## ⚙️ Installation
 
@@ -97,3 +98,7 @@ You can show and hide the URL Bar (See the difference above) by commenting / unc
 If anyone has the doubt, in almost all of the screenshots you can see a Startpage made for it. It's called [Bento 🍱](https://github.com/MiguelRAvila/Bento) and It's another project I made. It fits with the Firefox theme because It's done with the same principles: Minimalist, Simple and Elegant.
 
 ![bento](https://github.com/migueravila/Bento/blob/master/assets/img/subheader.png)
+
+## ⚠️ Warning note
+
+As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch. Also there's pending the **OneLine** version.
