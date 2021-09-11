@@ -18,7 +18,7 @@
   - [💛 Colors](#-colors)
   - [🚧 URL Bar](#-url-bar)
   - [🍱 Startpage](#-startpage)
-- [⚠️ Warning note](#️-warning-note)
+- [⚠️ Notes](#️-notes)
 
 ## 💫 Features
 
@@ -99,6 +99,8 @@ If anyone has the doubt, in almost all of the screenshots you can see a Startpag
 
 ![bento](https://github.com/migueravila/Bento/blob/master/assets/img/subheader.png)
 
-## ⚠️ Warning note
+## ⚠️ Notes
 
-As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch. Also it's pending the **OneLine** version.
+- As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch. Also it's pending the **OneLine** version.
+- Windows and MacOS are currently tested but may not be in the future.
+- Some custom themes (And GTK themes in Linux) may break context menus.
