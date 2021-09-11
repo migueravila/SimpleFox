@@ -17,6 +17,7 @@
 - [🎨 Customization](#-customization)
   - [💛 Colors](#-colors)
   - [🚧 URL Bar](#-url-bar)
+  - [🔧 Recommended settings](#-recommended-settings)
   - [🍱 Startpage](#-startpage)
 - [⚠️ Notes](#️-notes)
 
@@ -92,6 +93,13 @@ You can show and hide the URL Bar (See the difference above) by commenting / unc
 /*─────────────────────────────*/
 
 ```
+
+### 🔧 Recommended settings
+
+- Right click on toolbar -> Customize.
+  - Remove (as you want) all the removable elements including extensions, drag space and buttons.
+- Install the [SimpleFox](https://addons.mozilla.org/en-US/firefox/addon/simplerentfox/) add on theme.
+
 
 ### 🍱 Startpage
 
