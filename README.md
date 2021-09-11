@@ -2,7 +2,10 @@
 
 <p style="margin: -20px 0 30px">
   <a href="https://www.buymeacoffee.com/migueravila" target="_blank" style='margin-right:0px; margin-top:5px'>
-    <img align="center" src="https://github.com/migueravila/SimplerentFox/blob/dev/assets/donation.png" alt="donation" height="35px" />
+    <img align="center" src="https://github.com/migueravila/SimplerentFox/blob/master/assets/donation.png" alt="donation" height="35px" />
+  </a>
+  <a href="https://raw.githubusercontent.com/migueravila/SimpleFox/master/assets/urlbar.png" target="_blank" style='margin-right:0px; margin-top:5px'>
+    <img align="center" src="https://github.com/migueravila/SimplerentFox/blob/master/assets/preview.png" alt="preview" height="35px" />
   </a>
 </p>
 
@@ -109,6 +112,7 @@ If anyone has the doubt, in almost all of the screenshots you can see a Startpag
 
 ## ⚠️ Notes
 
-- As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch. Also it's pending the **OneLine** version.
+- As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch.
 - Windows and MacOS are currently tested but may not be in the future.
 - Some custom themes (And GTK themes in Linux) may break context menus.
+- **One Line** version pending.
