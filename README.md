@@ -110,9 +110,13 @@ If anyone has the doubt, in almost all of the screenshots you can see a Startpag
 
 ![bento](https://github.com/migueravila/Bento/blob/master/assets/img/subheader.png)
 
+###  ⛲ One line version: Cascade
+
+Andreas Grafen has made an awesome work making a One Line theme inspired by SimpleFox. As it's work is awesome and allows you customization I can totally recomend it. Here you can find his repo: [Link](https://github.com/andreasgrafen)
+
+
 ## ⚠️ Notes
 
 - As Firefox changed at version 88 introducing the Proton UI, all the old files and configurations moved to [oldFirefox](https://github.com/migueravila/SimpleFox/tree/oldFirefox) branch.
 - Windows and MacOS are currently tested but may not be in the future.
 - Some custom themes (And GTK themes in Linux) may break context menus.
-- **One Line** version pending.
