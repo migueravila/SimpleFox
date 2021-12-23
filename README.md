@@ -113,7 +113,7 @@ If anyone has the doubt, in almost all of the screenshots you can see a Startpag
 
 ###  ⛲ One line version: Cascade
 
-Andreas Grafen has made an awesome work making a One Line theme inspired by SimpleFox. As it's work is awesome and allows you customization I can totally recomend it. Here you can find his repo: [Link](https://github.com/andreasgrafen)
+[Andreas Grafen](https://github.com/andreasgrafen/) has made an awesome work making a One Line theme inspired by SimpleFox. As it's work is awesome and allows you customization I can totally recomend it. Here you can find his repo: [Link](https://github.com/andreasgrafen/cascade)
 
 ![image](assets/oneline.png)
 ## ⚠️ Notes
