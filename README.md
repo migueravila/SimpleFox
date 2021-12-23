@@ -22,6 +22,7 @@
   - [🚧 URL Bar](#-url-bar)
   - [🔧 Recommended settings](#-recommended-settings)
   - [🍱 Startpage](#-startpage)
+  - [⛲ One line version: Cascade](#-one-line-version-cascade)
 - [⚠️ Notes](#️-notes)
 
 ## 💫 Features
