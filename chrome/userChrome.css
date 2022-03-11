@@ -113,8 +113,8 @@ by Miguel Avila
 }
 
 .tab-background {
-  border-right: 0px solid rgba(0, 0, 0, 0) !important;
-  margin-left: -4px !important;
+  border: 0px solid rgba(0, 0, 0, 0) !important;
+  margin-left: 0px !important;
 }
 
 .tabbrowser-tab:is([visuallyselected='true'], [multiselected])
