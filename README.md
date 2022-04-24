@@ -59,6 +59,8 @@ This userstyle was made for a keyboard centered usage, like Tilling Window Manag
 -   `Ctrl + Shift + T` Re-opens a tab that you just closed
 -   `Ctrl + R` Refresh the page you're on
 -   `Ctrl + Shift + A` Quick open for Add-Ons
+-   `Ctrl + Tab` Next Tab
+-   `Ctrl + Shift + Tab` Previous Tab
 
 ## 🎨 Customization
 
