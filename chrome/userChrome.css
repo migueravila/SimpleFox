@@ -203,3 +203,71 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #context_closeTabOptions {
   display: none !important;
 }
+
+
+/*
+┬┌─┐┌─┐┌┐┌┌─┐
+││  │ ││││└─┐
+┴└─┘└─┘┘└┘└─┘
+Icons from Feather Icons
+https://feathericons.com/
+
+Only tested on windows, may lack support on MacOS/Linux.
+If this looks weird, comment out the window buttons section.
+*/
+
+
+/* browser-aero.css | chrome://browser/skin/browser-aero.css */
+
+@media (-moz-windows-compositor) {
+  @media not (-moz-platform: windows-win7) {
+    @media not (-moz-platform: windows-win8) {
+      @media (-moz-windows-default-theme: 0) {
+        .titlebar-min {
+          /* list-style-image: url(chrome://browser/skin/window-controls/minimize-highcontrast.svg); */
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/minus.svg) !important;
+        }
+        .titlebar-max {
+          /* list-style-image: url(chrome://browser/skin/window-controls/maximize-highcontrast.svg); */
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/maximize.svg) !important;
+        }
+        .titlebar-restore {
+          /* list-style-image: url(chrome://browser/skin/window-controls/restore-highcontrast.svg); */
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/minimize.svg) !important;
+        }
+        .titlebar-close {
+          /* list-style-image: url(chrome://browser/skin/window-controls/close-highcontrast.svg); */
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/x.svg) !important;
+        }
+      }
+    }
+  }
+}
+
+/* toolbarbutton-icons.css | chrome://browser/skin/toolbarbutton-icons.css */
+
+#reload-button {
+  /* list-style-image: url("chrome://global/skin/icons/reload.svg"); */
+  /* list-style-image: url(")"); */
+  list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/refresh-ccw.svg) !important; 
+}
+
+/* identity-block.css | chrome://browser/skin/identity-block/identity-block.css */
+
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon, #identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+  /* list-style-image: url(chrome://global/skin/icons/security.svg); */
+  list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/lock.svg) !important;
+}
+
+/* tabs.css | chrome://browser/skin/tabs.css */
+
+#tabs-newtab-button, #TabsToolbar #new-tab-button {
+  /* list-style-image: url(chrome://global/skin/icons/plus.svg); */
+  list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/plus.svg) !important;
+}
+
+#alltabs-button {
+  /* list-style-image: url(chrome://global/skin/icons/arrow-down.svg); */
+  list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/chevron-down.svg) !important;
+}
+
