@@ -203,3 +203,64 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #context_closeTabOptions {
   display: none !important;
 }
+
+
+/*
+┬┌─┐┌─┐┌┐┌┌─┐
+││  │ ││││└─┐
+┴└─┘└─┘┘└┘└─┘
+Icons from Feather Icons
+https://feathericons.com/
+
+Only tested on windows, may lack support on MacOS/Linux.
+If this looks weird, comment out the window buttons section.
+*/
+
+
+/* Reload Button */
+#reload-button {
+  list-style-image: url("https://raw.githubusercontent.com/feathericons/feather/master/icons/refresh-cw.svg");
+}
+
+/* Lock/Security Icon */
+#identity-box[pageproxystate="valid"].verifiedDomain #identity-icon,
+#identity-box[pageproxystate="valid"].mixedActiveBlocked #identity-icon {
+  list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/lock.svg);
+}
+
+/* New tab button */
+#tabs-newtab-button,
+#TabsToolbar #new-tab-button {
+  list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/plus.svg);
+}
+
+/* Tab list (down arrow) */
+#alltabs-button {
+  list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/chevron-down.svg);
+}
+
+
+
+/* WINDOW BUTTONS */
+
+
+/* Minimize */
+.titlebar-min {
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/minus.svg);
+}
+
+/* Maximize */
+.titlebar-max {
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/maximize.svg);
+}
+
+/* Close */
+.titlebar-close {
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/x.svg);
+}
+
+/* Restore */
+.titlebar-restore {
+          list-style-image: url(https://raw.githubusercontent.com/feathericons/feather/master/icons/minimize.svg);
+}
+
